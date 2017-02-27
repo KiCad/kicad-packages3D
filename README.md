@@ -82,14 +82,14 @@ http://www.fsf.org/licensing/licenses/gpl-faq.html#FontException
 Therefore, using this as a template, all 3d models released with KiCAD
 are covered under the GPL with the following exception clause:
 
-"As a special exception, if you create a design which uses this symbol,
-and embed this symbol or unaltered portions of this symbol into the
-design, this symbol does not by itself cause the resulting design to
+"As a special exception, if you create a design which uses this 3d model,
+and embed this 3d model or unaltered portions of this 3d model into the
+design, this 3d model does not by itself cause the resulting design to
 be covered by the GNU General Public License. This exception does not
 however invalidate any other reasons why the design itself might be
 covered by the GNU General Public License. If you modify this
-symbol, you may extend this exception to your version of the
-symbol, but you are not obligated to do so. If you do not
+3d model, you may extend this exception to your version of the
+3d model, but you are not obligated to do so. If you do not
 wish to do so, delete this exception statement from your version."
 
 The idea is that case 1 redistribution is covered under the GPL, but

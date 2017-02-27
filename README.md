@@ -21,66 +21,65 @@ The 3D models in this library are aligned with the footprints available in the K
 TODO
 
 ## A word about Licensing on 3d model files.
-All software components of gEDA/gaf are released under the GNU General
+All software components of KiCAD are released under the GNU General
 Public License (GPL) version 2 or later. However, some confusion exists
-about the schematic symbols. What license do they use? Will GPL symbols
+about the 3d models distributed in this library. What license do they use? Will GPL 3d models
 “infect” your design, thereby requiring you to release your design to
-the public? If you modify the symbols, must you release the modified
+the public? If you modify the 3d models, must you release the modified
 versions under the GPL?
 
-The goal of the gEDA Project is to provide an open-source EDA Suite
+The goal of the KiCAD Project is to provide an open-source EDA Suite
 which may be used for non-commercial as well as commercial projects. Our
 tools are aimed for use by students, hobbyists, educators, consultants,
 and - yes - corporate engineers. We are not interested in exerting any
 control over your designs, or forcing you to reveal proprietary
 information contained in your designs.
 
-Symbols are similar to the font files used in document processing
+3d models are similar to the font files used in document processing
 software – they are graphical objects used to express your ideas. We
 want you to retain control of your own ideas (your design), while the
-gEDA Project retains a say in how you redistribute the symbols themselves.
+KiCAD Project retains a say in how you redistribute the 3d models themselves.
 
-There are three ways a symbol might be distributed:
+There are three ways a 3d models might be distributed:
 
-  1. As part of a symbol library, or individually as a .sym file
-     (i.e. as a symbol itself).
-  2. Embedded in a .sch file (i.e. part of the soft, or editable copy of
-     a design).
-  3. The resulting graphical expression on a schematic diagram (i.e. as
+  1. As part of a 3d model library, or individually as a .step or .wrl files
+     (i.e. as a 3d model itself).
+  2. Embedded in a 3d file exported generated from your project. (i.e. part of the soft, or editable copy of a design).
+  3. The resulting rendering created from your printed circuit board using these 3d models (i.e. as
      part of the hard, or non-editable copy of a design).
 
 There is a distinction between cases 1 and (2, 3). In case 1, the object
-of interest is the symbol library (or individual symbol) itself. In case
+of interest is the 3d model library (or individual 3d models) itself. In case
 (2, 3), the object of interest is the design. Some label case 1
-“distribution”, and case (2, 3) “use” of the symbol.
+“distribution”, and case (2, 3) “use” of the 3d model.
 
-Our goals for the symbols are:
+Our goals for the 3d models are:
 
-  * We wish to distribute the symbols under a licencing scheme which
+  * We wish to distribute the 3d models under a licencing scheme which
     encourages that you give back to the community if you redistribute
-    the the symbols themselves - whether modified or unmodified. This is
+    the the 3d models themselves - whether modified or unmodified. This is
     case 1 distribution. The GPL ensures this.
 
-  * We wish to specifically prohibit anybody from building gEDA's
-    symbols into their *software* products, and then place restrictions
-    on how the resulting product may be used. If you bundle gEDA symbols
+  * We wish to specifically prohibit anybody from building KiCAD's
+    3d models into their *software* products, and then place restrictions
+    on how the resulting product may be used. If you bundle KiCAD 3d models
     - whether modified or unmodified - into your software and then
-    distribute it, then you must allow for the software's (and symbols')
+    distribute it, then you must allow for the software's (and 3d models')
     continued redistribution under the GPL. Again, this is case 1
     distribution; the GPL ensures this.
 
   * However, we do not wish to “infect” your *electronic* design, or
     force you to release your proprietary design information if you use
-    or embed gEDA symbols in your design. This is case (2, 3) use.
+    or embed KiCAD 3d models in your design. This is case (2, 3) use.
 
 The Free Software Foundation has recognized a possible conflict of the
-base GPL with the use of fonts - and, by analogy, symbols used in case
+base GPL with the use of fonts - and, by analogy, 3d models used in the cases
 (2, 3). Their solution is to use an exemption clause in the GPL which
 you explicitly insert for fonts. Read about it here:
 
 http://www.fsf.org/licensing/licenses/gpl-faq.html#FontException
 
-Therefore, using this as a template, all symbols released with gEDA/gaf
+Therefore, using this as a template, all 3d models released with KiCAD
 are covered under the GPL with the following exception clause:
 
 "As a special exception, if you create a design which uses this symbol,
@@ -95,7 +94,7 @@ wish to do so, delete this exception statement from your version."
 
 The idea is that case 1 redistribution is covered under the GPL, but
 distribution of your design (case (2, 3) is exempt from the GPL. This is
-the scheme which the gEDA Project wishes to use for symbol distribution
+the scheme which the KiCAD Project wishes to use for 3d model distribution
 and use.
 
 ## External Model Libraries

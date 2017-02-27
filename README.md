@@ -18,7 +18,7 @@ The 3D models in this library are aligned with the footprints available in the K
 * The WRL file format does not specify absolute dimensions. KiCad normalizes model parameters to units of *Inches*, and the internal units of the WRL files should be scaled accordingly
 
 ## Contributing
-TODO
+Refer to the Wiki page on [Contributing](https://github.com/KiCad/packages3D/wiki/Contributing)
 
 ## A word about Licensing on 3d model files.
 All software components of KiCAD are released under the GNU General

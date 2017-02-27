@@ -40,12 +40,12 @@ software – they are graphical objects used to express your ideas. We
 want you to retain control of your own ideas (your design), while the
 KiCAD Project retains a say in how you redistribute the 3d models themselves.
 
-There are three ways a 3d models might be distributed:
+There are three ways a 3d model might be distributed:
 
   1. As part of a 3d model library, or individually as a .step or .wrl files
      (i.e. as a 3d model itself).
-  2. Embedded in a 3d file exported generated from your project. (i.e. part of the soft, or editable copy of a design).
-  3. The resulting rendering created from your printed circuit board using these 3d models (i.e. as
+  2. Embedded in a 3d file generated from your project. (i.e. part of the soft, or editable copy of a design).
+  3. The resulting rendering of your project created by using these 3d models (i.e. as
      part of the hard, or non-editable copy of a design).
 
 There is a distinction between cases 1 and (2, 3). In case 1, the object
@@ -62,10 +62,10 @@ Our goals for the 3d models are:
 
   * We wish to specifically prohibit anybody from building KiCAD's
     3d models into their *software* products, and then place restrictions
-    on how the resulting product may be used. If you bundle KiCAD 3d models
-    - whether modified or unmodified - into your software and then
-    distribute it, then you must allow for the software's (and 3d models')
-    continued redistribution under the GPL. Again, this is case 1
+    on how the resulting product may be used.
+    If you bundle KiCAD 3d models - whether modified or unmodified -
+    into your software and then distribute it, then you must allow for the software's
+    (and 3d models') continued redistribution under the GPL. Again, this is case 1
     distribution; the GPL ensures this.
 
   * However, we do not wish to “infect” your *electronic* design, or

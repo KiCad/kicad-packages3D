@@ -12,6 +12,9 @@ STEP models must be 1:1 in mm, better if the model is a solid single object (a u
 ### WRL
 WRL files must be exported from its mechanical model counterpart. WRL files are used for photo-realistic rendering using KiCad's raytracing rendering engine. This format supports more complex material properties, allowing various common component materials to be accurately rendered. 
 
+### Source Files
+Source files for generated models should be submitted to (https://github.com/kicad/packages3d-source). This includes generator scripts, or native model files from source software (e.g. [FreeCAD](https://www.freecadweb.org/))
+
 ## Preferred praticse to create 3D models:
 The model has to be created in a mechanical program, able to generate STEP export. The model can be created by automatic scripts or manually.
 [FreeCAD](https://www.freecadweb.org/) is the preferred software because it is open source, and anyone can rework the model for future improvements, but also other proprietary MCAD software are allowed. 

@@ -21,4 +21,5 @@ release version of sw used to create models:
 MSOP-8-1EP_3x3mm_Pitch0.65mm  
 SSOP-20_5.3x7.2mm_Pitch0.65mm  
 TSSOP-14_4.4x5mm_Pitch0.65mm  
+QSOP-24_3.9x8.7mm_Pitch0.635mm (https://github.com/easyw/kicad-3d-models-in-freecad/pull/31 joe-skb7)
 (for the full family models **only dimension parameters** need to be added to the scripts)  

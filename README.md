@@ -23,6 +23,7 @@ when the model is manually created, the MCAD source file should be added to the 
 STEP models should be 1:1 in mm, better if the model is a solid single object (a union of parts) for size and loading optimization; 
 text is not suggested on models because of size increasing, anyway in case of text the fonts must be licensed free as the word.
 WRL models should be exported from its mechanical counterpart and, when possible, have the suggested material properties as in this document [WRL Material Properties](https://cld.pt/dl/download/64e39e99-c5b6-451b-accd-9e25331ceafe/KiCad_3D-Viewer_component-materials-reference-list_MarioLuzeiro.pdf?download=true)
+A simple method to export a fully compliant WRL model from a mechanical STEP model is through [KiCad StepUp](https://sourceforge.net/projects/kicadstepup/) A tutorial video can be found [here](https://youtu.be/O6vr8QFnYGw)
 
 ### Model Alignment
 The 3D models in this library are aligned with the footprints available in the KiCad footprint libraries.

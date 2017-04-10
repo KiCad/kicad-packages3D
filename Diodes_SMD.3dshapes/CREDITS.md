@@ -23,4 +23,7 @@ D_SMA_Standard
 D_SMB_Handsoldering 
 D_SMB_Standard 
 D_SMC_Handsoldering 
-D_SMC_Standard 
+D_SMC_Standard
+D_SOD-123  
+D_SOD-323  
+D_SOT-23   

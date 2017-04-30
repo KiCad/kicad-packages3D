@@ -50,3 +50,19 @@ CadQuery script by hackscribble
 FreeCAD 0.17 R10887
 StepUp v5015
 CadQuery 1.0.1
+
+#### DPAK / D2PAK / D3PAK / ATPAK
+
+CadQuery script by hackscribble
+*link TBA*
+FreeCAD 0.17 R10958
+StepUp v5015
+CadQuery 1.0.0.1
+
+TO-252-2 TO-252-3_TabPin2 TO-252-3_TabPin4
+TO-252-4 TO-252-5_TabPin3 TO-252-5_TabPin6
+TO-263-2 TO-263-3_TabPin2 TO-263-3_TabPin4
+TO-263-4 TO-263-5_TabPin3 TO-263-5_TabPin6
+TO-263-6 TO-263-7_TabPin4 TO-263-7_TabPin8
+TO-268-2
+ATPAK-2

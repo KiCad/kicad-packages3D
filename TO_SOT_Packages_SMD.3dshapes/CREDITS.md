@@ -54,7 +54,7 @@ CadQuery 1.0.1
 #### DPAK / D2PAK / D3PAK / ATPAK
 
 CadQuery script by hackscribble
-*link TBA*
+https://github.com/easyw/kicad-3d-models-in-freecad/pull/52
 FreeCAD 0.17 R10958
 StepUp v5015
 CadQuery 1.0.0.1

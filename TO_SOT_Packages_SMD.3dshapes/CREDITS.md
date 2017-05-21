@@ -37,7 +37,7 @@ SOT-353_SC-70-5
 SOT-363_SC-70-6  
 SOT-383F  
 SOT-383FL  
-SOT-886  
+SOT-886
 TSOT-23-5  
 TSOT-23-6_MK06A  
 TSOT-23-8  
@@ -51,7 +51,7 @@ FreeCAD 0.17 R10887
 StepUp v5015
 CadQuery 1.0.1
 
-#### DPAK / D2PAK / D3PAK / ATPAK
+#### DPAK / D2PAK / D3PAK / ATPAK / HSOF8 / SOT669
 
 CadQuery script by hackscribble
 https://github.com/easyw/kicad-3d-models-in-freecad/pull/52
@@ -66,3 +66,6 @@ TO-263-4 TO-263-5_TabPin3 TO-263-5_TabPin6
 TO-263-6 TO-263-7_TabPin4 TO-263-7_TabPin8
 TO-268-2
 ATPAK-2
+Infineon_PG-HSOF-8-1
+SOT-669_LFPAK
+

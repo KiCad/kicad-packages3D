@@ -39,6 +39,7 @@ DFN-12-1EP_3x3mm_Pitch0.45mm
 DFN-12-1EP_3x4mm_Pitch0.5mm 
 DFN-12-1EP_4x4mm_Pitch0.5mm 
 DFN-12-1EP_4x4mm_Pitch0.65mm 
+DFN-14-1EP_3x3mm_Pitch0.4mm
 DFN-14-1EP_3x4mm_Pitch0.5mm 
 DFN-14-1EP_4x4mm_Pitch0.5mm 
 DFN-16-1EP_3x4mm_Pitch0.45mm 

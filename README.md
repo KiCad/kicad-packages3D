@@ -46,7 +46,8 @@ In addition to the 3D model data provided in this library, there are other sourc
 
 * Many manufacturers provide accurate 3D models for specific components.
 * Online repositories, e.g.
-    * [smisioto](http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm)
+    * [FreeCAD Electric Library](https://github.com/FreeCAD/FreeCAD-library/tree/master/Electrical%20Parts)
+    * [FreeCAD Electronic Library](https://github.com/FreeCAD/FreeCAD-library/tree/master/Electrical%20Parts/electronic-components)
     * [GrabCAD](https://grabcad.com/)
     * [3D ContentCentral](http://www.3dcontentcentral.com/)
     * [traceparts](http://www.traceparts.com/)

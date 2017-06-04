@@ -18,6 +18,7 @@ release version of sw used to create models:
 - FreeCAD 0.15  
 - CadQuery 0.5.2  
 
+SO-6L_10x3.84mm_Pitch1.27mm		(FreeCad 017_pre)
 SOIC-14_3.9x8.7mm_Pitch1.27mm  
 SOIC-16W_7.5x10.3mm_Pitch1.27mm  
 SOIC-16_3.9x9.9mm_Pitch1.27mm  

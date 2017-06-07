@@ -12,13 +12,13 @@ Please fill all 3D models credits and info source data accordingly.
 
 ### Housings_SON.3dshapes:  
 
-SON parameters added by hackscribble to existing QFN script from easyw
-TBC https://github.com/easyw/kicad-3d-models-in-freecad/pull/52
-TBC FreeCAD 0.17 R10958
+SON parameters added by hackscribble to existing CadQuery QFN script from easyw
+TBC *link to PR*
+FreeCAD 0.17 R11236
 StepUp v5015
 CadQuery 1.0.0.1
 
-TBC BELOW ...
+TBC *list below*
 
 NXP_XSON-16
 Texas_S-PDSO-N12

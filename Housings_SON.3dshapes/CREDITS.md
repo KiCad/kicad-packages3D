@@ -1,24 +1,22 @@
 ﻿## Footprint Library Credits
 
-The credits of 3D models are listed in respective folder.  
-Please fill all 3D models credits and info source data accordingly.  
+The credits of 3D models are listed in respective folder.
+Please fill all 3D models credits and info source data accordingly.
 
 ### Info requirements:
 - Author
 - if the 3D model is script generated, a link to the script generator is required as well as the version and sw used
 - if the 3D model is manually generated, include the source model @ https://github.com/KiCad/packages3D-source
 
-<hr>  
+<hr>
 
 ### Housings_SON.3dshapes:  
 
-SON parameters added by hackscribble to existing CadQuery QFN script from easyw
-TBC *link to PR*
+Parameters for SON devices added by hackscribble to the existing CadQuery QFN script from easyw
+https://github.com/easyw/kicad-3d-models-in-freecad/pull/69
 FreeCAD 0.17 R11236
 StepUp v5015
 CadQuery 1.0.0.1
-
-TBC *list below*
 
 NXP_XSON-16
 Texas_S-PDSO-N12

@@ -30,4 +30,6 @@ WSON-16_3.3x1.35_Pitch0.4mm
 WSON6_1.5x1.5mm_Pitch0.5mm
 WSON8_4x4mm_Pitch0.8mm
 X2SON-8_1.4x1mm_Pitch0.35mm
+WSON-14_1EP_4.0x4.0mm_Pitch0.5mm
+
 

@@ -16,8 +16,8 @@ Please fill all 3D models credits and info source data accordingly.
 
 STEP and WRL models designed by poeschlr using CadQuery script by maurice and hyOzd
 - [molex](https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator/molex)
-- FreeCAD TBC
-- CadQuery TBC
+- FreeCAD 0.15 or 0.17 >= R10802
+- CadQuery 0.5.2
 
 #### KK 6410 series
 

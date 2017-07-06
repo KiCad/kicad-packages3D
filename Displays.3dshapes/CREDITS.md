@@ -1,7 +1,7 @@
-﻿## Footprint Library Credits
+## Footprint Library Credits
 
-The credits of 3D models are listed in respective folder.
-Please fill all 3D models credits and info source data accordingly.
+The credits of 3D models are listed in respective folder.  
+Please fill all 3D models credits and info source data accordingly.  
 
 ### Info requirements:
 - Author
@@ -9,6 +9,16 @@ Please fill all 3D models credits and info source data accordingly.
 - if the 3D model is manually generated, include the source model @ https://github.com/KiCad/packages3D-source
 
 <hr>
+
+#### AG12864E
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### HDSP-4830, HDSP-4832, HDSP-4836, HDSP-4840, HDSP-4850, HDSP-48xx, HLCP-J100
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
 #### HY1602E
 STEP and WRL models designed by Stefan Olsson

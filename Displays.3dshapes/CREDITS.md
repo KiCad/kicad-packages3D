@@ -10,15 +10,13 @@ Please fill all 3D models credits and info source data accordingly.
 
 <hr>
 
-### LCD-016N002L.FCStd
-Author:	Stefan Olsson
-Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
-
-### WC1602A.FCStd
+#### AG12864E
+STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
 #### HDSP-4830, HDSP-4832, HDSP-4836, HDSP-4840, HDSP-4850, HDSP-48xx, HLCP-J100
+STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
@@ -26,4 +24,14 @@ Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.f
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windows platform https://www.freecadweb.org/
+
+### LCD-016N002L.FCStd
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+### WC1602A.FCStd
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 

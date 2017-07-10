@@ -15,7 +15,12 @@ STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
-#### HY1602E
+#### HDSM-441B and HDSM-443B
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windows platform https://www.freecadweb.org/
+
+#### HDSM-541B and HDSM-543B
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windows platform https://www.freecadweb.org/
@@ -25,7 +30,7 @@ STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windows platform https://www.freecadweb.org/
 
-#### HDSM-541B and HDSM-543B
+#### HY1602E
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windows platform https://www.freecadweb.org/

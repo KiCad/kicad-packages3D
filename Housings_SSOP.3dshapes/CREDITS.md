@@ -69,5 +69,6 @@ TSSOP-8_4.4x3mm_Pitch0.65mm
 VSO-40_7.6x15.4mm_Pitch0.762mm  
 VSO-56_11.1x21.5mm_Pitch0.75mm  
 VSSOP-8_2.3x2mm_Pitch0.5mm  
-VSSOP-8_2.4x2.1mm_Pitch0.5mm  
+VSSOP-8_2.4x2.1mm_Pitch0.5mm
+SOP-4_3.8x4.1mm_Pitch2.54mm
 

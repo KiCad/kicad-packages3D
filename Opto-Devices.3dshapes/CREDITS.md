@@ -10,7 +10,7 @@ Please fill all 3D models credits and info source data accordingly.
 
 <hr>
 
-#### LG206L and LG206D
+#### PhotoInterrupter_Kodenshi_LG206L and PhotoInterrupter_Kodenshi_LG206D
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/

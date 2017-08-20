@@ -20,6 +20,11 @@ STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
+#### DA56-11XXXX and DC56-11XXXX
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
 #### ELD_426XXXX
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson

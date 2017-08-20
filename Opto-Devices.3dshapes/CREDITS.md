@@ -10,6 +10,11 @@ Please fill all 3D models credits and info source data accordingly.
 
 <hr>
 
+#### AmbientLightSensor_AMS_TSL2550_SMD
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
 #### PhotoInterrupter_Kodenshi_LG206L and PhotoInterrupter_Kodenshi_LG206D
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson

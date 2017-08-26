@@ -15,12 +15,32 @@ STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
-#### DE 113, DE 114 and DE 170 
+#### DA04-11 and DC04-11
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### DA56-11XXXX and DC56-11XXXX
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
 #### ELD_426XXXX
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### DE 113, DE 114 and DE 170 
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### KCSA02-XXX and KCSC02-XXX
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### MANXXXXA
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/

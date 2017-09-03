@@ -19,3 +19,8 @@ Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.f
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### ColourSensor_Kingbright_KPS-5130
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/

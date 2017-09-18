@@ -29,13 +29,14 @@ This library of 3D models is incomplete.
   * ~~XH~~
   * GH
   * J2100
-  * PH
+  * ~~PH-THT~~
+  * PH-SMD
   * PUD
   * SHL
   * SH
   * SUR
   * ZE
-  
+
 * Molex
   * ~~PicoBlade~~
   * KK
@@ -48,12 +49,12 @@ This library of 3D models is incomplete.
   * PicoBlade
   * Sabre
   * SlimStack
-  
+
 * Hirose
   * DF13
   * DF52
   * DF63
-  
+
 * Phoenix
   * ~~GMSTB~~
   * ~~MC~~
@@ -61,5 +62,3 @@ This library of 3D models is incomplete.
   * ~~MSTB~~
   * ~~MSTBA~~
   * ~~MSTBV~~
-  
-

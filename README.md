@@ -39,7 +39,7 @@ The 3D models in this library are aligned with the footprints available in the K
 Refer to the Wiki page on [Contributing](https://github.com/KiCad/packages3D/wiki/Contributing)
 
 ## Model Licencing
-Refer to the Wiki page on [Licencing](https://github.com/KiCad/packages3D/wiki/Model-Licencing)
+Refer to the LICENSE.md file
 
 ## External Model Libraries
 In addition to the 3D model data provided in this library, there are other sources that designers may use to source 3D models.

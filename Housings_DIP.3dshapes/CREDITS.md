@@ -39,3 +39,8 @@ DIP-6_W7.62mm
 DIP-8_W10.16mm  
 DIP-8_W7.62mm  
 (for the other family models **only dimension parameters** need to be added to the scripts)  
+
+### Housings_DIP.3dshapes SMD variant:
+main author: Stefan Olsson (others in script files) 
+The SMD model creation script is a modified variant of the one that creates the THT models
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/

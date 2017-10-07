@@ -28,3 +28,10 @@ SOIC-28W_7.5x17.9mm_Pitch1.27mm
 SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm  
 SOIC-8_3.9x4.9mm_Pitch1.27mm  
 SOIJ-8_5.3x5.3mm_Pitch1.27mm  
+
+
+#### SO-20_12.8x7.5mm_Pitch1.27mm
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+

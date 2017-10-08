@@ -45,6 +45,12 @@ STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
 
+
+#### EA_eDIPTFT57-XXX
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
 #### EA_eDIP320X-XXX
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson

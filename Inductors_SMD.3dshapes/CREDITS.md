@@ -18,11 +18,23 @@ release version of sw used to create models:
 - FreeCAD 0.16
 - CadQuery 1.0.0.1 
 
-L_0201  
-L_0402  
-L_0603  
-L_0805  
-L_1206  
-L_1210  
+L_0201
+L_0402
+L_0603
+L_0805
+L_1206
+L_1210
 L_1806
 L_1812
+L_Wuerth_MAPI-1610
+L_Wuerth_MAPI-2010
+L_Wuerth_MAPI-2506
+L_Wuerth_MAPI-2508
+L_Wuerth_MAPI-2510
+L_Wuerth_MAPI-2512
+L_Wuerth_MAPI-3010
+L_Wuerth_MAPI-3012
+L_Wuerth_MAPI-3015
+L_Wuerth_MAPI-3020
+L_Wuerth_MAPI-4020
+L_Wuerth_MAPI-4030

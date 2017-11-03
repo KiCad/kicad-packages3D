@@ -44,3 +44,62 @@ DIP-8_W7.62mm
 main author: Stefan Olsson (others in script files) 
 The SMD model creation script is a modified variant of the one that creates the THT models
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+### Housings_DIP.3dshapes - turned pin sockets:  
+
+main author: Terje Io (others in script files)
+
+release version of sw used to create models: 
+- Freecad 0.16, CadQuery 1.0.0
+
+Source:
+https://github.com/easyw/kicad-3d-models-in-freecad/tree/master/cadquery/FCAD_script_generator/DIP_parts
+
+DIP-10_W7.62mm_Socket
+DIP-10_W8.89mm_SMDSocket_LongPads
+DIP-12_W7.62mm_Socket
+DIP-12_W8.89mm_SMDSocket_LongPads
+DIP-14_W7.62mm_Socket
+DIP-14_W8.89mm_SMDSocket_LongPads
+DIP-16_W7.62mm_Socket
+DIP-16_W8.89mm_SMDSocket_LongPads
+DIP-18_W7.62mm_Socket
+DIP-18_W8.89mm_SMDSocket_LongPads
+DIP-20_W7.62mm_Socket
+DIP-20_W8.89mm_SMDSocket_LongPads
+DIP-22_W10.16mm_Socket
+DIP-22_W11.43mm_SMDSocket_LongPads
+DIP-22_W7.62mm_Socket
+DIP-22_W8.89mm_SMDSocket_LongPads
+DIP-24_W10.16mm_Socket
+DIP-24_W11.43mm_SMDSocket_LongPads
+DIP-24_W15.24mm_Socket
+DIP-24_W16.51mm_SMDSocket_LongPads
+DIP-24_W7.62mm_Socket
+DIP-24_W8.89mm_SMDSocket_LongPads
+DIP-28_W15.24mm_Socket
+DIP-28_W16.51mm_SMDSocket_LongPads
+DIP-28_W7.62mm_Socket
+DIP-28_W8.89mm_SMDSocket_LongPads
+DIP-32_W15.24mm_Socket
+DIP-32_W16.51mm_SMDSocket_LongPads
+DIP-32_W7.62mm_Socket
+DIP-32_W8.89mm_SMDSocket_LongPads
+DIP-40_W15.24mm_Socket
+DIP-40_W16.51mm_SMDSocket_LongPads
+DIP-48_W15.24mm_Socket
+DIP-48_W16.51mm_SMDSocket_LongPads
+DIP-4_W10.16mm_Socket
+DIP-4_W11.43mm_SMDSocket_LongPads
+DIP-4_W7.62mm_Socket
+DIP-4_W8.89mm_SMDSocket_LongPads
+DIP-64_W15.24mm_Socket
+DIP-64_W16.51mm_SMDSocket_LongPads
+DIP-6_W10.16mm_Socket
+DIP-6_W11.43mm_SMDSocket_LongPads
+DIP-6_W7.62mm_Socket
+DIP-6_W8.89mm_SMDSocket_LongPads
+DIP-8_W10.16mm_Socket
+DIP-8_W11.43mm_SMDSocket_LongPads
+DIP-8_W7.62mm_Socket
+DIP-8_W8.89mm_SMDSocket_LongPads

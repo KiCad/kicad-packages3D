@@ -1,0 +1,3520 @@
+#VRML V2.0 utf8
+#kicad StepUp wrl exported
+
+# Copyright (C) 2017, kicad StepUp
+# 
+# This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+# with the following exception:
+# To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+# then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+# as part of the 'Licensed Material'.
+# You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+# However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+# Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+# Disclaimer of Warranties and Limitation of Liability.
+# These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+# *USE 3D CAD DATA AT YOUR OWN RISK*
+# *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+# 
+Shape {
+	appearance Appearance {material DEF IC-BODY-EPOXY-04 Material {
+		ambientIntensity 0.293
+		diffuseColor 0.148 0.145 0.145
+		specularColor 0.18 0.168 0.16
+		emissiveColor 0.0 0.0 0.0
+		transparency 0.0
+		shininess 0.35
+		}
+	}
+}
+Shape {
+	appearance Appearance {material DEF PIN-02 Material {
+		ambientIntensity 0.379
+		diffuseColor 0.859 0.738 0.496
+		specularColor 0.137 0.145 0.184
+		emissiveColor 0.0 0.0 0.0
+		transparency 0.0
+		shininess 0.4
+		}
+	}
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 0.197 0.039,1.220 0.197 0.039,1.220 0.157 0.000,0.748 0.157 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 0.197 0.039,0.748 0.197 0.866,1.220 0.197 0.866,1.220 0.197 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 0.157 0.000,1.220 0.157 0.000,1.220 -0.157 0.000,0.748 -0.157 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1,4,0,3,-1,5,6,7,-1,8,4,3,-1,2,1,9,-1,10,11,12,-1,6,13,14,-1,13,15,14,-1,16,17,12,-1,11,16,12,-1,9,1,18,-1,7,6,14,-1,1,10,18,-1,10,12,18,-1,5,7,19,-1,15,20,21,-1,14,15,21,-1,22,14,23,-1,14,21,23,-1,20,24,25,-1,24,26,25,-1,21,20,25,-1,19,22,27,-1,28,19,27,-1,28,29,30,-1,5,19,30,-1,19,28,30,-1,30,29,31,-1,31,29,32,-1,27,22,33,-1,22,23,33,-1,25,26,34,-1,26,35,34,-1,34,35,36,-1,35,37,36,-1,37,38,36,-1,25,34,39,-1,40,25,39,-1,27,33,41,-1,32,27,41,-1,33,23,42,-1,23,40,42,-1,32,41,43,-1,31,32,44,-1,32,43,44,-1,43,41,45,-1,42,40,46,-1,40,39,46,-1,38,47,48,-1,36,38,48,-1,49,36,50,-1,36,48,50,-1,42,46,51,-1,52,42,51,-1,46,39,53,-1,39,49,53,-1,47,54,55,-1,54,56,55,-1,48,47,55,-1,52,51,57,-1,45,41,58,-1,52,57,58,-1,41,52,58,-1,57,51,59,-1,59,51,60,-1,56,61,62,-1,55,56,62,-1,53,49,63,-1,49,50,63,-1,61,64,65,-1,64,66,65,-1,62,61,65,-1,55,62,67,-1,68,55,67,-1,60,53,69,-1,53,63,69,-1,63,50,70,-1,50,68,70,-1,59,60,71,-1,60,69,72,-1,71,60,72,-1,72,69,73,-1,73,69,74,-1,66,75,76,-1,65,66,76,-1,68,67,77,-1,70,68,77,-1,76,75,78,-1,78,79,80,-1,76,78,80,-1,65,76,81,-1,82,65,81,-1,67,82,83,-1,77,67,83,-1,70,77,84,-1,74,70,84,-1,74,84,85,-1,74,85,86,-1,73,74,86,-1,85,84,87,-1,87,84,88,-1,80,79,89,-1,79,90,89,-1,91,80,89,-1,82,81,92,-1,83,82,92,-1,91,89,93,-1,89,90,94,-1,90,95,94,-1,95,96,94,-1,92,81,97,-1,81,91,97,-1,88,83,98,-1,83,92,98,-1,88,98,99,-1,87,88,100,-1,88,99,100,-1,99,98,101,-1,101,98,102,-1,94,96,103,-1,96,104,103,-1,91,93,105,-1,97,91,105,-1,102,97,105,-1,94,103,106,-1,107,94,106,-1,103,104,108,-1,104,109,108,-1,109,110,108,-1,102,105,111,-1,105,93,112,-1,93,107,112,-1,101,102,113,-1,102,111,114,-1,113,102,114,-1,114,111,115,-1,110,116,117,-1,108,110,117,-1,107,106,118,-1,112,107,118,-1,117,116,119,-1,112,118,120,-1,121,112,120,-1,106,122,123,-1,118,106,123,-1,122,108,124,-1,108,117,124,-1,119,125,126,-1,117,119,126,-1,115,111,127,-1,111,121,127,-1,121,120,128,-1,127,121,128,-1,128,120,129,-1,125,130,131,-1,126,125,131,-1,122,124,132,-1,123,122,132,-1,131,130,133,-1,126,131,134,-1,135,126,134,-1,123,132,136,-1,137,123,136,-1,133,138,139,-1,131,133,139,-1,132,124,140,-1,124,135,140,-1,129,120,141,-1,120,137,141,-1,137,136,142,-1,141,137,142,-1,142,136,143,-1,139,138,144,-1,138,145,144,-1,135,134,146,-1,140,135,146,-1,144,145,147,-1,148,139,149,-1,139,144,149,-1,144,147,150,-1,147,151,150,-1,152,140,153,-1,140,146,153,-1,146,134,154,-1,134,148,154,-1,136,152,155,-1,143,136,155,-1,155,152,156,-1,152,153,156,-1,156,153,157,-1,150,151,158,-1,151,159,158,-1,154,148,160,-1,148,149,160,-1,158,159,161,-1,162,150,163,-1,150,158,163,-1,161,17,164,-1,158,161,164,-1,165,154,4,-1,154,160,4,-1,149,162,166,-1,160,149,166,-1,153,165,167,-1,157,153,167,-1,165,4,168,-1,167,165,168,-1,168,4,8,-1,164,17,16,-1,166,162,169,-1,162,163,169,-1,0,166,1,-1,166,169,1,-1,163,16,11,-1,169,163,11,-1]
+coord Coordinate { point [0.748 -3.996 0.709,0.748 -4.272 0.709,0.748 -4.134 0.866,0.748 -4.094 0.906,0.748 -3.878 0.709,0.748 0.197 0.039,0.748 0.157 0.000,0.748 0.059 0.197,0.748 -3.780 0.906,0.748 -4.173 0.906,0.748 -4.390 0.709,0.748 -4.390 0.591,0.748 -4.528 0.866,0.748 -0.157 0.000,0.748 -0.059 0.197,0.748 -0.197 0.039,0.748 -4.390 0.315,0.748 -4.528 0.039,0.748 -4.488 0.906,0.748 0.059 0.315,0.748 -0.236 0.000,0.748 -0.335 0.197,0.748 -0.059 0.315,0.748 -0.335 0.315,0.748 -0.551 0.000,0.748 -0.453 0.197,0.748 -0.591 0.039,0.748 -0.059 0.591,0.748 0.059 0.591,0.748 0.059 0.709,0.748 0.197 0.866,0.748 0.157 0.906,0.748 -0.059 0.709,0.748 -0.335 0.591,0.748 -0.728 0.197,0.748 -0.630 -0.000,0.748 -0.846 0.197,0.748 -0.945 0.000,0.748 -0.984 0.039,0.748 -0.728 0.315,0.748 -0.453 0.315,0.748 -0.335 0.709,0.748 -0.453 0.591,0.748 -0.197 0.866,0.748 -0.157 0.906,0.748 -0.236 0.906,0.748 -0.728 0.591,0.748 -1.024 -0.000,0.748 -1.122 0.197,0.748 -0.846 0.315,0.748 -1.122 0.315,0.748 -0.728 0.709,0.748 -0.453 0.709,0.748 -0.846 0.591,0.748 -1.339 0.000,0.748 -1.240 0.197,0.748 -1.378 0.039,0.748 -0.591 0.866,0.748 -0.551 0.906,0.748 -0.630 0.906,0.748 -0.846 0.709,0.748 -1.417 -0.000,0.748 -1.516 0.197,0.748 -1.122 0.591,0.748 -1.732 0.000,0.748 -1.634 0.197,0.748 -1.772 0.039,0.748 -1.516 0.315,0.748 -1.240 0.315,0.748 -1.122 0.709,0.748 -1.240 0.591,0.748 -0.945 0.906,0.748 -0.984 0.866,0.748 -1.024 0.906,0.748 -1.240 0.709,0.748 -1.811 0.000,0.748 -1.909 0.197,0.748 -1.516 0.591,0.748 -2.126 0.000,0.748 -2.165 0.039,0.748 -2.028 0.197,0.748 -1.909 0.315,0.748 -1.634 0.315,0.748 -1.634 0.591,0.748 -1.516 0.709,0.748 -1.378 0.866,0.748 -1.339 0.906,0.748 -1.417 0.906,0.748 -1.634 0.709,0.748 -2.303 0.197,0.748 -2.205 0.000,0.748 -2.028 0.315,0.748 -1.909 0.591,0.748 -2.303 0.315,0.748 -2.421 0.197,0.748 -2.520 0.000,0.748 -2.559 0.039,0.748 -2.028 0.591,0.748 -1.909 0.709,0.748 -1.772 0.866,0.748 -1.732 0.906,0.748 -1.811 0.906,0.748 -2.028 0.709,0.748 -2.697 0.197,0.748 -2.598 0.000,0.748 -2.303 0.591,0.748 -2.697 0.315,0.748 -2.421 0.315,0.748 -2.815 0.197,0.748 -2.913 0.000,0.748 -2.953 0.039,0.748 -2.303 0.709,0.748 -2.421 0.591,0.748 -2.126 0.906,0.748 -2.165 0.866,0.748 -2.205 0.906,0.748 -2.992 0.000,0.748 -3.091 0.197,0.748 -2.697 0.591,0.748 -3.307 0.000,0.748 -2.697 0.709,0.748 -2.421 0.709,0.748 -2.815 0.315,0.748 -2.815 0.591,0.748 -3.091 0.315,0.748 -3.346 0.039,0.748 -3.209 0.197,0.748 -2.520 0.906,0.748 -2.559 0.866,0.748 -2.598 0.906,0.748 -3.386 0.000,0.748 -3.484 0.197,0.748 -3.091 0.591,0.748 -3.701 0.000,0.748 -3.484 0.315,0.748 -3.209 0.315,0.748 -3.091 0.709,0.748 -2.815 0.709,0.748 -3.740 0.039,0.748 -3.602 0.197,0.748 -3.209 0.591,0.748 -2.913 0.906,0.748 -2.953 0.866,0.748 -2.992 0.906,0.748 -3.878 0.197,0.748 -3.780 0.000,0.748 -3.484 0.591,0.748 -4.094 0.000,0.748 -3.602 0.315,0.748 -3.878 0.315,0.748 -3.996 0.197,0.748 -4.134 0.039,0.748 -3.209 0.709,0.748 -3.484 0.709,0.748 -3.602 0.591,0.748 -3.307 0.906,0.748 -3.346 0.866,0.748 -3.386 0.906,0.748 -4.272 0.197,0.748 -4.173 0.000,0.748 -3.878 0.591,0.748 -4.488 0.000,0.748 -3.996 0.315,0.748 -4.272 0.315,0.748 -4.390 0.197,0.748 -3.602 0.709,0.748 -3.996 0.591,0.748 -3.701 0.906,0.748 -3.740 0.866,0.748 -4.272 0.591]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1,0,3,4,-1,5,6,7,-1,8,9,1,-1,10,11,12,-1,10,13,14,-1,10,14,11,-1,15,9,8,-1,15,12,9,-1,15,10,12,-1,16,5,7,-1,17,18,6,-1,17,19,18,-1,17,6,5,-1,20,21,19,-1,20,19,17,-1,22,23,16,-1,24,23,22,-1,25,26,21,-1,25,27,26,-1,25,21,20,-1,28,17,23,-1,28,20,17,-1,29,30,22,-1,29,16,7,-1,29,22,16,-1,31,30,29,-1,32,30,31,-1,33,23,24,-1,33,34,28,-1,33,28,23,-1,35,36,27,-1,35,27,25,-1,37,38,36,-1,37,39,38,-1,37,36,35,-1,40,35,25,-1,40,25,34,-1,41,33,24,-1,41,24,32,-1,42,34,33,-1,43,41,32,-1,44,32,31,-1,44,43,32,-1,45,41,43,-1,46,40,34,-1,46,34,42,-1,46,47,40,-1,48,49,39,-1,48,39,37,-1,50,37,47,-1,50,48,37,-1,51,46,42,-1,51,42,52,-1,53,54,49,-1,53,55,54,-1,53,49,48,-1,56,47,46,-1,57,51,52,-1,58,41,45,-1,58,57,52,-1,58,52,41,-1,59,51,57,-1,60,51,59,-1,61,62,55,-1,61,55,53,-1,63,50,47,-1,63,47,56,-1,63,64,50,-1,65,66,62,-1,65,67,66,-1,65,62,61,-1,68,61,53,-1,68,53,64,-1,69,64,63,-1,70,56,60,-1,70,63,56,-1,71,60,59,-1,72,70,60,-1,72,60,71,-1,73,70,72,-1,74,70,73,-1,75,76,67,-1,75,67,65,-1,77,68,64,-1,77,64,69,-1,77,78,68,-1,79,76,75,-1,80,81,79,-1,80,79,75,-1,82,75,65,-1,82,65,78,-1,83,78,77,-1,84,77,69,-1,84,69,74,-1,85,84,74,-1,86,85,74,-1,86,74,73,-1,87,84,85,-1,88,84,87,-1,89,81,80,-1,89,90,81,-1,89,80,91,-1,92,82,78,-1,92,91,82,-1,92,78,83,-1,93,89,91,-1,94,90,89,-1,94,95,90,-1,94,96,95,-1,97,91,92,-1,98,83,88,-1,98,92,83,-1,99,98,88,-1,100,88,87,-1,100,99,88,-1,101,98,99,-1,102,98,101,-1,103,96,94,-1,103,104,96,-1,105,91,97,-1,105,93,91,-1,105,106,93,-1,105,97,102,-1,107,108,104,-1,107,109,108,-1,107,104,103,-1,110,105,102,-1,111,106,105,-1,112,103,94,-1,112,94,106,-1,113,102,101,-1,114,110,102,-1,114,102,113,-1,115,110,114,-1,116,117,109,-1,116,109,107,-1,118,119,112,-1,118,106,111,-1,118,112,106,-1,120,117,116,-1,121,118,111,-1,121,111,122,-1,123,119,118,-1,124,125,120,-1,124,120,116,-1,126,107,119,-1,126,116,107,-1,127,110,115,-1,127,122,110,-1,128,121,122,-1,128,122,127,-1,129,121,128,-1,130,131,125,-1,130,125,124,-1,132,126,119,-1,132,119,123,-1,133,131,130,-1,134,123,135,-1,134,132,123,-1,136,137,133,-1,136,133,130,-1,138,130,124,-1,138,124,139,-1,140,126,132,-1,140,139,126,-1,141,121,129,-1,141,135,121,-1,142,134,135,-1,142,135,141,-1,143,134,142,-1,144,137,136,-1,144,145,137,-1,146,138,139,-1,146,139,140,-1,147,145,144,-1,148,136,149,-1,148,144,136,-1,150,147,144,-1,150,151,147,-1,152,140,153,-1,152,146,140,-1,154,138,146,-1,154,149,138,-1,155,153,134,-1,155,134,143,-1,156,152,153,-1,156,153,155,-1,157,152,156,-1,158,151,150,-1,158,159,151,-1,160,161,148,-1,160,149,154,-1,160,148,149,-1,162,159,158,-1,163,150,161,-1,163,158,150,-1,164,13,162,-1,164,162,158,-1,3,154,165,-1,3,160,154,-1,166,161,160,-1,167,165,152,-1,167,152,157,-1,168,3,165,-1,168,165,167,-1,4,3,168,-1,14,13,164,-1,169,161,166,-1,169,14,163,-1,169,163,161,-1,9,166,2,-1,9,169,166,-1,11,14,169,-1,1,9,2,-1]
+coord Coordinate { point [1.220 -4.094 0.906,1.220 -4.134 0.866,1.220 -3.996 0.709,1.220 -3.878 0.709,1.220 -3.780 0.906,1.220 0.059 0.197,1.220 0.157 0.000,1.220 0.197 0.039,1.220 -4.173 0.906,1.220 -4.272 0.709,1.220 -4.528 0.866,1.220 -4.390 0.591,1.220 -4.390 0.709,1.220 -4.528 0.039,1.220 -4.390 0.315,1.220 -4.488 0.906,1.220 0.059 0.315,1.220 -0.059 0.197,1.220 -0.157 0.000,1.220 -0.197 0.039,1.220 -0.335 0.197,1.220 -0.236 0.000,1.220 0.059 0.591,1.220 -0.059 0.315,1.220 -0.059 0.591,1.220 -0.453 0.197,1.220 -0.551 0.000,1.220 -0.591 0.039,1.220 -0.335 0.315,1.220 0.197 0.866,1.220 0.059 0.709,1.220 0.157 0.906,1.220 -0.059 0.709,1.220 -0.335 0.591,1.220 -0.453 0.315,1.220 -0.728 0.197,1.220 -0.630 -0.000,1.220 -0.846 0.197,1.220 -0.945 0.000,1.220 -0.984 0.039,1.220 -0.728 0.315,1.220 -0.335 0.709,1.220 -0.453 0.591,1.220 -0.197 0.866,1.220 -0.157 0.906,1.220 -0.236 0.906,1.220 -0.728 0.591,1.220 -0.846 0.315,1.220 -1.122 0.197,1.220 -1.024 -0.000,1.220 -1.122 0.315,1.220 -0.728 0.709,1.220 -0.453 0.709,1.220 -1.240 0.197,1.220 -1.339 0.000,1.220 -1.378 0.039,1.220 -0.846 0.591,1.220 -0.591 0.866,1.220 -0.551 0.906,1.220 -0.630 0.906,1.220 -0.846 0.709,1.220 -1.516 0.197,1.220 -1.417 -0.000,1.220 -1.122 0.591,1.220 -1.240 0.315,1.220 -1.634 0.197,1.220 -1.732 0.000,1.220 -1.772 0.039,1.220 -1.516 0.315,1.220 -1.240 0.591,1.220 -1.122 0.709,1.220 -0.945 0.906,1.220 -0.984 0.866,1.220 -1.024 0.906,1.220 -1.240 0.709,1.220 -1.909 0.197,1.220 -1.811 0.000,1.220 -1.516 0.591,1.220 -1.634 0.315,1.220 -2.126 0.000,1.220 -2.028 0.197,1.220 -2.165 0.039,1.220 -1.909 0.315,1.220 -1.634 0.591,1.220 -1.516 0.709,1.220 -1.378 0.866,1.220 -1.339 0.906,1.220 -1.417 0.906,1.220 -1.634 0.709,1.220 -2.303 0.197,1.220 -2.205 0.000,1.220 -2.028 0.315,1.220 -1.909 0.591,1.220 -2.303 0.315,1.220 -2.421 0.197,1.220 -2.520 0.000,1.220 -2.559 0.039,1.220 -2.028 0.591,1.220 -1.909 0.709,1.220 -1.772 0.866,1.220 -1.732 0.906,1.220 -1.811 0.906,1.220 -2.028 0.709,1.220 -2.697 0.197,1.220 -2.598 0.000,1.220 -2.303 0.591,1.220 -2.421 0.315,1.220 -2.815 0.197,1.220 -2.913 0.000,1.220 -2.953 0.039,1.220 -2.303 0.709,1.220 -2.421 0.591,1.220 -2.697 0.315,1.220 -2.126 0.906,1.220 -2.165 0.866,1.220 -2.205 0.906,1.220 -3.091 0.197,1.220 -2.992 0.000,1.220 -2.697 0.591,1.220 -2.815 0.315,1.220 -3.307 0.000,1.220 -2.697 0.709,1.220 -2.421 0.709,1.220 -2.815 0.591,1.220 -3.209 0.197,1.220 -3.346 0.039,1.220 -3.091 0.315,1.220 -2.520 0.906,1.220 -2.559 0.866,1.220 -2.598 0.906,1.220 -3.484 0.197,1.220 -3.386 0.000,1.220 -3.091 0.591,1.220 -3.701 0.000,1.220 -3.091 0.709,1.220 -2.815 0.709,1.220 -3.602 0.197,1.220 -3.740 0.039,1.220 -3.484 0.315,1.220 -3.209 0.315,1.220 -3.209 0.591,1.220 -2.913 0.906,1.220 -2.953 0.866,1.220 -2.992 0.906,1.220 -3.878 0.197,1.220 -3.780 0.000,1.220 -3.484 0.591,1.220 -4.094 0.000,1.220 -3.878 0.315,1.220 -3.602 0.315,1.220 -3.996 0.197,1.220 -4.134 0.039,1.220 -3.484 0.709,1.220 -3.209 0.709,1.220 -3.602 0.591,1.220 -3.307 0.906,1.220 -3.346 0.866,1.220 -3.386 0.906,1.220 -4.272 0.197,1.220 -4.173 0.000,1.220 -3.878 0.591,1.220 -3.996 0.315,1.220 -4.488 0.000,1.220 -4.272 0.315,1.220 -4.390 0.197,1.220 -3.602 0.709,1.220 -3.996 0.591,1.220 -3.701 0.906,1.220 -3.740 0.866,1.220 -4.272 0.591]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 0.157 0.906,1.220 0.157 0.906,1.220 0.197 0.866,0.748 0.197 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.157 0.000,1.220 -0.157 0.000,1.220 -0.197 0.039,0.748 -0.197 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.157 0.906,1.220 -0.157 0.906,1.220 0.157 0.906,0.748 0.157 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.197 0.039,1.220 -0.197 0.039,1.220 -0.236 0.000,0.748 -0.236 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.197 0.866,1.220 -0.197 0.866,1.220 -0.157 0.906,0.748 -0.157 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -0.551 0.000,0.748 -0.236 0.000,1.220 -0.236 0.000,1.220 -0.551 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.236 0.906,1.220 -0.236 0.906,1.220 -0.197 0.866,0.748 -0.197 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.551 0.000,1.220 -0.551 0.000,1.220 -0.591 0.039,0.748 -0.591 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.551 0.906,1.220 -0.551 0.906,1.220 -0.236 0.906,0.748 -0.236 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.591 0.039,1.220 -0.591 0.039,1.220 -0.630 -0.000,0.748 -0.630 -0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.591 0.866,1.220 -0.591 0.866,1.220 -0.551 0.906,0.748 -0.551 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -0.945 0.000,0.748 -0.630 -0.000,1.220 -0.630 -0.000,1.220 -0.945 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -0.591 0.866,0.748 -0.630 0.906,1.220 -0.630 0.906,1.220 -0.591 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.945 0.000,1.220 -0.945 0.000,1.220 -0.984 0.039,0.748 -0.984 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.945 0.906,1.220 -0.945 0.906,1.220 -0.630 0.906,0.748 -0.630 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.984 0.039,1.220 -0.984 0.039,1.220 -1.024 -0.000,0.748 -1.024 -0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -0.984 0.866,1.220 -0.984 0.866,1.220 -0.945 0.906,0.748 -0.945 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.339 0.000,0.748 -1.024 -0.000,1.220 -1.024 -0.000,1.220 -1.339 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -0.984 0.866,0.748 -1.024 0.906,1.220 -1.024 0.906,1.220 -0.984 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -1.339 0.000,1.220 -1.339 0.000,1.220 -1.378 0.039,0.748 -1.378 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.024 0.906,0.748 -1.339 0.906,1.220 -1.339 0.906,1.220 -1.024 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.417 -0.000,0.748 -1.378 0.039,1.220 -1.378 0.039,1.220 -1.417 -0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -1.378 0.866,1.220 -1.378 0.866,1.220 -1.339 0.906,0.748 -1.339 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.732 0.000,0.748 -1.417 -0.000,1.220 -1.417 -0.000,1.220 -1.732 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.378 0.866,0.748 -1.417 0.906,1.220 -1.417 0.906,1.220 -1.378 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -1.732 0.000,1.220 -1.732 0.000,1.220 -1.772 0.039,0.748 -1.772 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.417 0.906,0.748 -1.732 0.906,1.220 -1.732 0.906,1.220 -1.417 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -1.772 0.039,1.220 -1.772 0.039,1.220 -1.811 0.000,0.748 -1.811 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -1.772 0.866,1.220 -1.772 0.866,1.220 -1.732 0.906,0.748 -1.732 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.126 0.000,0.748 -1.811 0.000,1.220 -1.811 0.000,1.220 -2.126 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.772 0.866,0.748 -1.811 0.906,1.220 -1.811 0.906,1.220 -1.772 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.126 0.000,1.220 -2.126 0.000,1.220 -2.165 0.039,0.748 -2.165 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -1.811 0.906,0.748 -2.126 0.906,1.220 -2.126 0.906,1.220 -1.811 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.165 0.039,1.220 -2.165 0.039,1.220 -2.205 0.000,0.748 -2.205 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.126 0.906,0.748 -2.165 0.866,1.220 -2.165 0.866,1.220 -2.126 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.520 0.000,0.748 -2.205 0.000,1.220 -2.205 0.000,1.220 -2.520 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.205 0.906,1.220 -2.205 0.906,1.220 -2.165 0.866,0.748 -2.165 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.559 0.039,0.748 -2.520 0.000,1.220 -2.520 0.000,1.220 -2.559 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.205 0.906,0.748 -2.520 0.906,1.220 -2.520 0.906,1.220 -2.205 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.559 0.039,1.220 -2.559 0.039,1.220 -2.598 0.000,0.748 -2.598 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.559 0.866,1.220 -2.559 0.866,1.220 -2.520 0.906,0.748 -2.520 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.913 0.000,0.748 -2.598 0.000,1.220 -2.598 0.000,1.220 -2.913 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.559 0.866,0.748 -2.598 0.906,1.220 -2.598 0.906,1.220 -2.559 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.913 0.000,1.220 -2.913 0.000,1.220 -2.953 0.039,0.748 -2.953 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.598 0.906,0.748 -2.913 0.906,1.220 -2.913 0.906,1.220 -2.598 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.953 0.039,1.220 -2.953 0.039,1.220 -2.992 0.000,0.748 -2.992 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.953 0.866,1.220 -2.953 0.866,1.220 -2.913 0.906,0.748 -2.913 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -3.307 0.000,0.748 -2.992 0.000,1.220 -2.992 0.000,1.220 -3.307 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -2.992 0.906,1.220 -2.992 0.906,1.220 -2.953 0.866,0.748 -2.953 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -3.346 0.039,0.748 -3.307 0.000,1.220 -3.307 0.000,1.220 -3.346 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -2.992 0.906,0.748 -3.307 0.906,1.220 -3.307 0.906,1.220 -2.992 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -3.346 0.039,1.220 -3.346 0.039,1.220 -3.386 0.000,0.748 -3.386 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -3.346 0.866,1.220 -3.346 0.866,1.220 -3.307 0.906,0.748 -3.307 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -3.701 0.000,0.748 -3.386 0.000,1.220 -3.386 0.000,1.220 -3.701 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -3.386 0.906,1.220 -3.386 0.906,1.220 -3.346 0.866,0.748 -3.346 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -3.740 0.039,0.748 -3.701 0.000,1.220 -3.701 0.000,1.220 -3.740 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -3.386 0.906,0.748 -3.701 0.906,1.220 -3.701 0.906,1.220 -3.386 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -3.740 0.039,1.220 -3.740 0.039,1.220 -3.780 0.000,0.748 -3.780 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -3.740 0.866,1.220 -3.740 0.866,1.220 -3.701 0.906,0.748 -3.701 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -4.094 0.000,0.748 -3.780 0.000,1.220 -3.780 0.000,1.220 -4.094 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -3.780 0.906,1.220 -3.780 0.906,1.220 -3.740 0.866,0.748 -3.740 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -4.134 0.039,0.748 -4.094 0.000,1.220 -4.094 0.000,1.220 -4.134 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -3.780 0.906,0.748 -4.094 0.906,1.220 -4.094 0.906,1.220 -3.780 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -4.134 0.039,1.220 -4.134 0.039,1.220 -4.173 0.000,0.748 -4.173 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -4.134 0.866,1.220 -4.134 0.866,1.220 -4.094 0.906,0.748 -4.094 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -4.488 0.000,0.748 -4.173 0.000,1.220 -4.173 0.000,1.220 -4.488 0.000]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -4.173 0.906,1.220 -4.173 0.906,1.220 -4.134 0.866,0.748 -4.134 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -4.488 0.000,1.220 -4.488 0.000,1.220 -4.528 0.039,0.748 -4.528 0.039]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -4.173 0.906,0.748 -4.488 0.906,1.220 -4.488 0.906,1.220 -4.173 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.748 -4.528 0.866,0.748 -4.528 0.039,1.220 -4.528 0.039,1.220 -4.528 0.866]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.748 -4.528 0.866,1.220 -4.528 0.866,1.220 -4.488 0.906,0.748 -4.488 0.906]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -2.303 0.315,0.453 -2.421 0.315,0.748 -2.421 0.315,0.453 -2.303 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -2.421 0.197,0.339 -2.421 0.227,0.335 -2.421 0.197,0.350 -2.421 0.256,0.369 -2.421 0.280,0.394 -2.421 0.299,0.422 -2.421 0.311,0.453 -2.421 0.315,0.748 -2.421 0.197,0.748 -2.421 0.315,0.453 -2.421 -0.689,0.335 -2.421 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -2.303 0.197,0.748 -2.421 0.197,0.453 -2.421 0.197,0.748 -2.303 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -2.303 0.197,0.339 -2.303 0.227,0.453 -2.303 0.197,0.350 -2.303 0.256,0.369 -2.303 0.280,0.394 -2.303 0.299,0.422 -2.303 0.311,0.453 -2.303 0.315,0.748 -2.303 0.315,0.748 -2.303 0.197,0.335 -2.303 -0.689,0.453 -2.303 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -2.028 0.197,0.339 -2.028 0.227,0.335 -2.028 0.197,0.350 -2.028 0.256,0.369 -2.028 0.280,0.394 -2.028 0.299,0.422 -2.028 0.311,0.453 -2.028 0.315,0.748 -2.028 0.197,0.748 -2.028 0.315,0.453 -2.028 -0.689,0.335 -2.028 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -1.909 0.197,0.748 -2.028 0.197,0.453 -2.028 0.197,0.748 -1.909 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -1.909 0.197,0.339 -1.909 0.227,0.453 -1.909 0.197,0.350 -1.909 0.256,0.369 -1.909 0.280,0.394 -1.909 0.299,0.422 -1.909 0.311,0.453 -1.909 0.315,0.748 -1.909 0.315,0.748 -1.909 0.197,0.335 -1.909 -0.689,0.453 -1.909 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -1.909 0.315,0.453 -2.028 0.315,0.748 -2.028 0.315,0.453 -1.909 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -1.122 0.315,0.453 -1.240 0.315,0.748 -1.240 0.315,0.453 -1.122 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -1.240 0.197,0.339 -1.240 0.227,0.335 -1.240 0.197,0.350 -1.240 0.256,0.369 -1.240 0.280,0.394 -1.240 0.299,0.422 -1.240 0.311,0.453 -1.240 0.315,0.748 -1.240 0.197,0.748 -1.240 0.315,0.453 -1.240 -0.689,0.335 -1.240 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -1.122 0.197,0.748 -1.240 0.197,0.453 -1.240 0.197,0.748 -1.122 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -1.122 0.197,0.339 -1.122 0.227,0.453 -1.122 0.197,0.350 -1.122 0.256,0.369 -1.122 0.280,0.394 -1.122 0.299,0.422 -1.122 0.311,0.453 -1.122 0.315,0.748 -1.122 0.315,0.748 -1.122 0.197,0.335 -1.122 -0.689,0.453 -1.122 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -1.634 0.197,0.339 -1.634 0.227,0.335 -1.634 0.197,0.350 -1.634 0.256,0.369 -1.634 0.280,0.394 -1.634 0.299,0.422 -1.634 0.311,0.453 -1.634 0.315,0.748 -1.634 0.197,0.748 -1.634 0.315,0.453 -1.634 -0.689,0.335 -1.634 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -1.516 0.197,0.748 -1.634 0.197,0.453 -1.634 0.197,0.748 -1.516 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -1.516 0.197,0.339 -1.516 0.227,0.453 -1.516 0.197,0.350 -1.516 0.256,0.369 -1.516 0.280,0.394 -1.516 0.299,0.422 -1.516 0.311,0.453 -1.516 0.315,0.748 -1.516 0.315,0.748 -1.516 0.197,0.335 -1.516 -0.689,0.453 -1.516 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -1.516 0.315,0.453 -1.634 0.315,0.748 -1.634 0.315,0.453 -1.516 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -2.421 0.709,0.059 -2.303 0.709,0.059 -2.421 0.709,0.748 -2.303 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -2.421 0.591,-0.055 -2.421 0.621,-0.059 -2.421 0.591,-0.043 -2.421 0.650,-0.024 -2.421 0.674,0.000 -2.421 0.693,0.028 -2.421 0.705,0.059 -2.421 0.709,0.748 -2.421 0.591,0.748 -2.421 0.709,0.059 -2.421 -0.689,-0.059 -2.421 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -2.421 0.591,0.748 -2.303 0.591,0.748 -2.421 0.591,0.059 -2.303 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -2.303 0.591,-0.055 -2.303 0.621,0.059 -2.303 0.591,-0.043 -2.303 0.650,-0.024 -2.303 0.674,0.000 -2.303 0.693,0.028 -2.303 0.705,0.059 -2.303 0.709,0.748 -2.303 0.709,0.748 -2.303 0.591,-0.059 -2.303 -0.689,0.059 -2.303 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -2.028 0.591,-0.055 -2.028 0.621,-0.059 -2.028 0.591,-0.043 -2.028 0.650,-0.024 -2.028 0.674,0.000 -2.028 0.693,0.028 -2.028 0.705,0.059 -2.028 0.709,0.748 -2.028 0.591,0.748 -2.028 0.709,0.059 -2.028 -0.689,-0.059 -2.028 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -2.028 0.591,0.748 -1.909 0.591,0.748 -2.028 0.591,0.059 -1.909 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -1.909 0.591,-0.055 -1.909 0.621,0.059 -1.909 0.591,-0.043 -1.909 0.650,-0.024 -1.909 0.674,0.000 -1.909 0.693,0.028 -1.909 0.705,0.059 -1.909 0.709,0.748 -1.909 0.709,0.748 -1.909 0.591,-0.059 -1.909 -0.689,0.059 -1.909 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -2.028 0.709,0.059 -1.909 0.709,0.059 -2.028 0.709,0.748 -1.909 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -1.240 0.591,-0.055 -1.240 0.621,-0.059 -1.240 0.591,-0.043 -1.240 0.650,-0.024 -1.240 0.674,0.000 -1.240 0.693,0.028 -1.240 0.705,0.059 -1.240 0.709,0.748 -1.240 0.591,0.748 -1.240 0.709,0.059 -1.240 -0.689,-0.059 -1.240 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -1.240 0.591,0.748 -1.122 0.591,0.748 -1.240 0.591,0.059 -1.122 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -1.122 0.591,-0.055 -1.122 0.621,0.059 -1.122 0.591,-0.043 -1.122 0.650,-0.024 -1.122 0.674,0.000 -1.122 0.693,0.028 -1.122 0.705,0.059 -1.122 0.709,0.748 -1.122 0.709,0.748 -1.122 0.591,-0.059 -1.122 -0.689,0.059 -1.122 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -1.240 0.709,0.059 -1.122 0.709,0.059 -1.240 0.709,0.748 -1.122 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -1.634 0.591,-0.055 -1.634 0.621,-0.059 -1.634 0.591,-0.043 -1.634 0.650,-0.024 -1.634 0.674,0.000 -1.634 0.693,0.028 -1.634 0.705,0.059 -1.634 0.709,0.748 -1.634 0.591,0.748 -1.634 0.709,0.059 -1.634 -0.689,-0.059 -1.634 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -1.634 0.591,0.748 -1.516 0.591,0.748 -1.634 0.591,0.059 -1.516 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,2,7,8,-1,2,8,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -1.516 0.591,-0.055 -1.516 0.621,0.059 -1.516 0.591,-0.043 -1.516 0.650,-0.024 -1.516 0.674,0.000 -1.516 0.693,0.028 -1.516 0.705,0.059 -1.516 0.709,0.748 -1.516 0.709,0.748 -1.516 0.591,-0.059 -1.516 -0.689,0.059 -1.516 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -1.516 0.709,0.059 -1.634 0.709,0.748 -1.634 0.709,0.059 -1.516 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -3.996 0.709,0.059 -3.878 0.709,0.059 -3.996 0.709,0.748 -3.878 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -3.996 0.591,-0.055 -3.996 0.621,-0.059 -3.996 0.591,-0.043 -3.996 0.650,-0.024 -3.996 0.674,0.000 -3.996 0.693,0.028 -3.996 0.705,0.059 -3.996 0.709,0.748 -3.996 0.591,0.748 -3.996 0.709,0.059 -3.996 -0.689,-0.059 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -3.996 0.591,0.748 -3.878 0.591,0.748 -3.996 0.591,0.059 -3.878 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -3.878 0.591,-0.055 -3.878 0.621,0.059 -3.878 0.591,-0.043 -3.878 0.650,-0.024 -3.878 0.674,0.000 -3.878 0.693,0.028 -3.878 0.705,0.059 -3.878 0.709,0.748 -3.878 0.709,0.748 -3.878 0.591,-0.059 -3.878 -0.689,0.059 -3.878 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -3.602 0.591,0.748 -3.484 0.591,0.748 -3.602 0.591,0.059 -3.484 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -3.484 0.591,-0.055 -3.484 0.621,0.059 -3.484 0.591,-0.043 -3.484 0.650,-0.024 -3.484 0.674,0.000 -3.484 0.693,0.028 -3.484 0.705,0.059 -3.484 0.709,0.748 -3.484 0.709,0.748 -3.484 0.591,-0.059 -3.484 -0.689,0.059 -3.484 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -3.602 0.709,0.059 -3.484 0.709,0.059 -3.602 0.709,0.748 -3.484 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -3.602 0.591,-0.055 -3.602 0.621,-0.059 -3.602 0.591,-0.043 -3.602 0.650,-0.024 -3.602 0.674,0.000 -3.602 0.693,0.028 -3.602 0.705,0.059 -3.602 0.709,0.748 -3.602 0.591,0.748 -3.602 0.709,0.059 -3.602 -0.689,-0.059 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -2.815 0.709,0.059 -2.697 0.709,0.059 -2.815 0.709,0.748 -2.697 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -2.815 0.591,-0.055 -2.815 0.621,-0.059 -2.815 0.591,-0.043 -2.815 0.650,-0.024 -2.815 0.674,0.000 -2.815 0.693,0.028 -2.815 0.705,0.059 -2.815 0.709,0.748 -2.815 0.591,0.748 -2.815 0.709,0.059 -2.815 -0.689,-0.059 -2.815 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -2.815 0.591,0.748 -2.697 0.591,0.748 -2.815 0.591,0.059 -2.697 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -2.697 0.591,-0.055 -2.697 0.621,0.059 -2.697 0.591,-0.043 -2.697 0.650,-0.024 -2.697 0.674,0.000 -2.697 0.693,0.028 -2.697 0.705,0.059 -2.697 0.709,0.748 -2.697 0.709,0.748 -2.697 0.591,-0.059 -2.697 -0.689,0.059 -2.697 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -3.209 0.591,0.748 -3.091 0.591,0.748 -3.209 0.591,0.059 -3.091 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -3.091 0.591,-0.055 -3.091 0.621,0.059 -3.091 0.591,-0.043 -3.091 0.650,-0.024 -3.091 0.674,0.000 -3.091 0.693,0.028 -3.091 0.705,0.059 -3.091 0.709,0.748 -3.091 0.709,0.748 -3.091 0.591,-0.059 -3.091 -0.689,0.059 -3.091 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -3.209 0.709,0.059 -3.091 0.709,0.059 -3.209 0.709,0.748 -3.091 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -3.209 0.591,-0.055 -3.209 0.621,-0.059 -3.209 0.591,-0.043 -3.209 0.650,-0.024 -3.209 0.674,0.000 -3.209 0.693,0.028 -3.209 0.705,0.059 -3.209 0.709,0.748 -3.209 0.591,0.748 -3.209 0.709,0.059 -3.209 -0.689,-0.059 -3.209 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -2.697 0.315,0.453 -2.815 0.315,0.748 -2.815 0.315,0.453 -2.697 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -2.815 0.197,0.339 -2.815 0.227,0.335 -2.815 0.197,0.350 -2.815 0.256,0.369 -2.815 0.280,0.394 -2.815 0.299,0.422 -2.815 0.311,0.453 -2.815 0.315,0.748 -2.815 0.197,0.748 -2.815 0.315,0.453 -2.815 -0.689,0.335 -2.815 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -2.697 0.197,0.748 -2.815 0.197,0.453 -2.815 0.197,0.748 -2.697 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -2.697 0.197,0.339 -2.697 0.227,0.453 -2.697 0.197,0.350 -2.697 0.256,0.369 -2.697 0.280,0.394 -2.697 0.299,0.422 -2.697 0.311,0.453 -2.697 0.315,0.748 -2.697 0.315,0.748 -2.697 0.197,0.335 -2.697 -0.689,0.453 -2.697 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -3.091 0.315,0.453 -3.209 0.315,0.748 -3.209 0.315,0.453 -3.091 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -3.209 0.197,0.339 -3.209 0.227,0.335 -3.209 0.197,0.350 -3.209 0.256,0.369 -3.209 0.280,0.394 -3.209 0.299,0.422 -3.209 0.311,0.453 -3.209 0.315,0.748 -3.209 0.197,0.748 -3.209 0.315,0.453 -3.209 -0.689,0.335 -3.209 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -3.091 0.197,0.748 -3.209 0.197,0.453 -3.209 0.197,0.748 -3.091 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -3.091 0.197,0.339 -3.091 0.227,0.453 -3.091 0.197,0.350 -3.091 0.256,0.369 -3.091 0.280,0.394 -3.091 0.299,0.422 -3.091 0.311,0.453 -3.091 0.315,0.748 -3.091 0.315,0.748 -3.091 0.197,0.335 -3.091 -0.689,0.453 -3.091 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -3.878 0.315,0.453 -3.996 0.315,0.748 -3.996 0.315,0.453 -3.878 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -3.996 0.197,0.339 -3.996 0.227,0.335 -3.996 0.197,0.350 -3.996 0.256,0.369 -3.996 0.280,0.394 -3.996 0.299,0.422 -3.996 0.311,0.453 -3.996 0.315,0.748 -3.996 0.197,0.748 -3.996 0.315,0.453 -3.996 -0.689,0.335 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -3.878 0.197,0.748 -3.996 0.197,0.453 -3.996 0.197,0.748 -3.878 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -3.878 0.197,0.339 -3.878 0.227,0.453 -3.878 0.197,0.350 -3.878 0.256,0.369 -3.878 0.280,0.394 -3.878 0.299,0.422 -3.878 0.311,0.453 -3.878 0.315,0.748 -3.878 0.315,0.748 -3.878 0.197,0.335 -3.878 -0.689,0.453 -3.878 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -3.484 0.197,0.748 -3.602 0.197,0.453 -3.602 0.197,0.748 -3.484 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -3.484 0.197,0.339 -3.484 0.227,0.453 -3.484 0.197,0.350 -3.484 0.256,0.369 -3.484 0.280,0.394 -3.484 0.299,0.422 -3.484 0.311,0.453 -3.484 0.315,0.748 -3.484 0.315,0.748 -3.484 0.197,0.335 -3.484 -0.689,0.453 -3.484 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -3.484 0.315,0.453 -3.602 0.315,0.748 -3.602 0.315,0.453 -3.484 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -3.602 0.197,0.339 -3.602 0.227,0.335 -3.602 0.197,0.350 -3.602 0.256,0.369 -3.602 0.280,0.394 -3.602 0.299,0.422 -3.602 0.311,0.453 -3.602 0.315,0.748 -3.602 0.197,0.748 -3.602 0.315,0.453 -3.602 -0.689,0.335 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -0.846 0.709,0.059 -0.728 0.709,0.059 -0.846 0.709,0.748 -0.728 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -0.846 0.591,-0.055 -0.846 0.621,-0.059 -0.846 0.591,-0.043 -0.846 0.650,-0.024 -0.846 0.674,0.000 -0.846 0.693,0.028 -0.846 0.705,0.059 -0.846 0.709,0.748 -0.846 0.591,0.748 -0.846 0.709,0.059 -0.846 -0.689,-0.059 -0.846 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.059 -0.728 0.591,0.748 -0.846 0.591,0.059 -0.846 0.591,0.748 -0.728 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -0.728 0.591,-0.055 -0.728 0.621,0.059 -0.728 0.591,-0.043 -0.728 0.650,-0.024 -0.728 0.674,0.000 -0.728 0.693,0.028 -0.728 0.705,0.059 -0.728 0.709,0.748 -0.728 0.709,0.748 -0.728 0.591,-0.059 -0.728 -0.689,0.059 -0.728 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -0.728 0.315,0.453 -0.846 0.315,0.748 -0.846 0.315,0.453 -0.728 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -0.846 0.197,0.339 -0.846 0.227,0.335 -0.846 0.197,0.350 -0.846 0.256,0.369 -0.846 0.280,0.394 -0.846 0.299,0.422 -0.846 0.311,0.453 -0.846 0.315,0.748 -0.846 0.197,0.748 -0.846 0.315,0.453 -0.846 -0.689,0.335 -0.846 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -0.728 0.197,0.748 -0.846 0.197,0.453 -0.846 0.197,0.748 -0.728 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -0.728 0.197,0.339 -0.728 0.227,0.453 -0.728 0.197,0.350 -0.728 0.256,0.369 -0.728 0.280,0.394 -0.728 0.299,0.422 -0.728 0.311,0.453 -0.728 0.315,0.748 -0.728 0.315,0.748 -0.728 0.197,0.335 -0.728 -0.689,0.453 -0.728 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -0.453 0.197,0.339 -0.453 0.227,0.335 -0.453 0.197,0.350 -0.453 0.256,0.369 -0.453 0.280,0.394 -0.453 0.299,0.422 -0.453 0.311,0.453 -0.453 0.315,0.748 -0.453 0.197,0.748 -0.453 0.315,0.453 -0.453 -0.689,0.335 -0.453 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -0.335 0.197,0.748 -0.453 0.197,0.453 -0.453 0.197,0.748 -0.335 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -0.335 0.197,0.339 -0.335 0.227,0.453 -0.335 0.197,0.350 -0.335 0.256,0.369 -0.335 0.280,0.394 -0.335 0.299,0.422 -0.335 0.311,0.453 -0.335 0.315,0.748 -0.335 0.315,0.748 -0.335 0.197,0.335 -0.335 -0.689,0.453 -0.335 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -0.453 0.315,0.453 -0.335 0.315,0.453 -0.453 0.315,0.748 -0.335 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -0.453 0.591,-0.055 -0.453 0.621,-0.059 -0.453 0.591,-0.043 -0.453 0.650,-0.024 -0.453 0.674,0.000 -0.453 0.693,0.028 -0.453 0.705,0.059 -0.453 0.709,0.748 -0.453 0.591,0.748 -0.453 0.709,0.059 -0.453 -0.689,-0.059 -0.453 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.059 -0.335 0.591,0.748 -0.453 0.591,0.059 -0.453 0.591,0.748 -0.335 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,2,7,8,-1,2,8,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -0.335 0.591,-0.055 -0.335 0.621,0.059 -0.335 0.591,-0.043 -0.335 0.650,-0.024 -0.335 0.674,0.000 -0.335 0.693,0.028 -0.335 0.705,0.059 -0.335 0.709,0.748 -0.335 0.709,0.748 -0.335 0.591,-0.059 -0.335 -0.689,0.059 -0.335 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -0.335 0.709,0.059 -0.453 0.709,0.748 -0.453 0.709,0.059 -0.335 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,7,0,-1,9,8,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -0.059 0.591,-0.055 -0.059 0.621,-0.059 -0.059 0.591,-0.043 -0.059 0.650,-0.024 -0.059 0.674,0.000 -0.059 0.693,0.028 -0.059 0.705,0.059 -0.059 0.709,0.748 -0.059 0.709,0.748 -0.059 0.591,0.059 -0.059 -0.689,-0.059 -0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.059 0.059 0.591,0.748 -0.059 0.591,0.059 -0.059 0.591,0.748 0.059 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,2,7,8,-1,2,8,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 0.059 0.591,-0.055 0.059 0.621,0.059 0.059 0.591,-0.043 0.059 0.650,-0.024 0.059 0.674,0.000 0.059 0.693,0.028 0.059 0.705,0.059 0.059 0.709,0.748 0.059 0.709,0.748 0.059 0.591,-0.059 0.059 -0.689,0.059 0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -0.059 0.709,0.059 0.059 0.709,0.059 -0.059 0.709,0.748 0.059 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 0.059 0.315,0.453 -0.059 0.315,0.748 -0.059 0.315,0.453 0.059 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -0.059 0.197,0.339 -0.059 0.227,0.335 -0.059 0.197,0.350 -0.059 0.256,0.369 -0.059 0.280,0.394 -0.059 0.299,0.422 -0.059 0.311,0.453 -0.059 0.315,0.748 -0.059 0.197,0.748 -0.059 0.315,0.453 -0.059 -0.689,0.335 -0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 0.059 0.197,0.748 -0.059 0.197,0.453 -0.059 0.197,0.748 0.059 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 0.059 0.197,0.339 0.059 0.227,0.453 0.059 0.197,0.350 0.059 0.256,0.369 0.059 0.280,0.394 0.059 0.299,0.422 0.059 0.311,0.453 0.059 0.315,0.748 0.059 0.315,0.748 0.059 0.197,0.335 0.059 -0.689,0.453 0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.748 -4.272 0.315,0.453 -4.390 0.315,0.748 -4.390 0.315,0.453 -4.272 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.453 -4.390 0.197,0.339 -4.390 0.227,0.335 -4.390 0.197,0.350 -4.390 0.256,0.369 -4.390 0.280,0.394 -4.390 0.299,0.422 -4.390 0.311,0.453 -4.390 0.315,0.748 -4.390 0.197,0.748 -4.390 0.315,0.453 -4.390 -0.689,0.335 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [0.453 -4.272 0.197,0.748 -4.390 0.197,0.453 -4.390 0.197,0.748 -4.272 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [0.335 -4.272 0.197,0.339 -4.272 0.227,0.453 -4.272 0.197,0.350 -4.272 0.256,0.369 -4.272 0.280,0.394 -4.272 0.299,0.422 -4.272 0.311,0.453 -4.272 0.315,0.748 -4.272 0.315,0.748 -4.272 0.197,0.335 -4.272 -0.689,0.453 -4.272 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.748 -4.390 0.709,0.059 -4.272 0.709,0.059 -4.390 0.709,0.748 -4.272 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1,0,4,3,-1,0,5,4,-1,0,6,5,-1,0,7,6,-1,8,9,7,-1,8,7,0,-1,10,2,11,-1,10,0,2,-1]
+coord Coordinate { point [0.059 -4.390 0.591,-0.055 -4.390 0.621,-0.059 -4.390 0.591,-0.043 -4.390 0.650,-0.024 -4.390 0.674,0.000 -4.390 0.693,0.028 -4.390 0.705,0.059 -4.390 0.709,0.748 -4.390 0.591,0.748 -4.390 0.709,0.059 -4.390 -0.689,-0.059 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.059 -4.390 0.591,0.748 -4.272 0.591,0.748 -4.390 0.591,0.059 -4.272 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,3,4,2,-1,4,5,2,-1,5,6,2,-1,6,7,2,-1,7,8,9,-1,2,7,9,-1,10,0,11,-1,0,2,11,-1]
+coord Coordinate { point [-0.059 -4.272 0.591,-0.055 -4.272 0.621,0.059 -4.272 0.591,-0.043 -4.272 0.650,-0.024 -4.272 0.674,0.000 -4.272 0.693,0.028 -4.272 0.705,0.059 -4.272 0.709,0.748 -4.272 0.709,0.748 -4.272 0.591,-0.059 -4.272 -0.689,0.059 -4.272 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.421 0.315,1.220 -2.303 0.315,1.220 -2.421 0.315,1.939 -2.303 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -2.421 0.315,1.220 -2.421 0.315,1.220 -2.421 0.197,1.939 -2.421 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -2.421 0.197,1.939 -2.303 0.197,1.939 -2.421 0.197,1.220 -2.303 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -2.303 0.197,1.220 -2.303 0.315,1.939 -2.303 0.315,1.939 -2.303 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -2.028 0.315,1.220 -2.028 0.315,1.220 -2.028 0.197,1.939 -2.028 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -2.028 0.197,1.939 -1.909 0.197,1.939 -2.028 0.197,1.220 -1.909 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -1.909 0.197,1.220 -1.909 0.315,1.939 -1.909 0.315,1.939 -1.909 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.028 0.315,1.220 -1.909 0.315,1.220 -2.028 0.315,1.939 -1.909 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -1.122 0.315,1.220 -1.240 0.315,1.939 -1.240 0.315,1.220 -1.122 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -1.240 0.315,1.220 -1.240 0.315,1.220 -1.240 0.197,1.939 -1.240 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -1.122 0.197,1.939 -1.240 0.197,1.220 -1.240 0.197,1.939 -1.122 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -1.122 0.197,1.220 -1.122 0.315,1.939 -1.122 0.315,1.939 -1.122 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -1.634 0.315,1.220 -1.634 0.315,1.220 -1.634 0.197,1.939 -1.634 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -1.634 0.197,1.939 -1.516 0.197,1.939 -1.634 0.197,1.220 -1.516 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -1.516 0.197,1.220 -1.516 0.315,1.939 -1.516 0.315,1.939 -1.516 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -1.634 0.315,1.220 -1.516 0.315,1.220 -1.634 0.315,1.939 -1.516 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -2.303 0.709,1.220 -2.421 0.709,1.939 -2.421 0.709,1.220 -2.303 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -2.421 0.591,1.939 -2.421 0.709,1.220 -2.421 0.709,1.220 -2.421 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -2.421 0.591,1.939 -2.303 0.591,1.939 -2.421 0.591,1.220 -2.303 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -2.303 0.709,1.939 -2.303 0.709,1.939 -2.303 0.591,1.220 -2.303 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -2.028 0.591,1.939 -2.028 0.709,1.220 -2.028 0.709,1.220 -2.028 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -2.028 0.591,1.939 -1.909 0.591,1.939 -2.028 0.591,1.220 -1.909 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -1.909 0.709,1.939 -1.909 0.709,1.939 -1.909 0.591,1.220 -1.909 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -1.909 0.709,1.220 -2.028 0.709,1.939 -2.028 0.709,1.220 -1.909 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -1.240 0.591,1.939 -1.240 0.709,1.220 -1.240 0.709,1.220 -1.240 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -1.122 0.591,1.939 -1.240 0.591,1.220 -1.240 0.591,1.939 -1.122 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -1.122 0.709,1.939 -1.122 0.709,1.939 -1.122 0.591,1.220 -1.122 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -1.122 0.709,1.220 -1.240 0.709,1.939 -1.240 0.709,1.220 -1.122 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -1.634 0.591,1.939 -1.634 0.709,1.220 -1.634 0.709,1.220 -1.634 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -1.634 0.591,1.939 -1.516 0.591,1.939 -1.634 0.591,1.220 -1.516 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -1.516 0.709,1.939 -1.516 0.709,1.939 -1.516 0.591,1.220 -1.516 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -1.516 0.709,1.220 -1.634 0.709,1.939 -1.634 0.709,1.220 -1.516 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -3.878 0.709,1.220 -3.996 0.709,1.939 -3.996 0.709,1.220 -3.878 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -3.996 0.591,1.939 -3.996 0.709,1.220 -3.996 0.709,1.220 -3.996 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -3.878 0.591,1.939 -3.996 0.591,1.220 -3.996 0.591,1.939 -3.878 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -3.878 0.709,1.939 -3.878 0.709,1.939 -3.878 0.591,1.220 -3.878 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -3.484 0.591,1.939 -3.602 0.591,1.220 -3.602 0.591,1.939 -3.484 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -3.484 0.709,1.939 -3.484 0.709,1.939 -3.484 0.591,1.220 -3.484 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -3.484 0.709,1.220 -3.602 0.709,1.939 -3.602 0.709,1.220 -3.484 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -3.602 0.591,1.939 -3.602 0.709,1.220 -3.602 0.709,1.220 -3.602 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -2.697 0.709,1.220 -2.815 0.709,1.939 -2.815 0.709,1.220 -2.697 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -2.815 0.591,1.939 -2.815 0.709,1.220 -2.815 0.709,1.220 -2.815 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -2.815 0.591,1.939 -2.697 0.591,1.939 -2.815 0.591,1.220 -2.697 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -2.697 0.709,1.939 -2.697 0.709,1.939 -2.697 0.591,1.220 -2.697 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -3.091 0.591,1.939 -3.209 0.591,1.220 -3.209 0.591,1.939 -3.091 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -3.091 0.709,1.939 -3.091 0.709,1.939 -3.091 0.591,1.220 -3.091 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -3.091 0.709,1.220 -3.209 0.709,1.939 -3.209 0.709,1.220 -3.091 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -3.209 0.591,1.939 -3.209 0.709,1.220 -3.209 0.709,1.220 -3.209 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.815 0.315,1.220 -2.697 0.315,1.220 -2.815 0.315,1.939 -2.697 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -2.815 0.315,1.220 -2.815 0.315,1.220 -2.815 0.197,1.939 -2.815 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -2.815 0.197,1.939 -2.697 0.197,1.939 -2.815 0.197,1.220 -2.697 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -2.697 0.197,1.220 -2.697 0.315,1.939 -2.697 0.315,1.939 -2.697 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.209 0.315,1.220 -3.091 0.315,1.220 -3.209 0.315,1.939 -3.091 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -3.209 0.315,1.220 -3.209 0.315,1.220 -3.209 0.197,1.939 -3.209 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -3.091 0.197,1.939 -3.209 0.197,1.220 -3.209 0.197,1.939 -3.091 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -3.091 0.197,1.220 -3.091 0.315,1.939 -3.091 0.315,1.939 -3.091 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.996 0.315,1.220 -3.878 0.315,1.220 -3.996 0.315,1.939 -3.878 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -3.996 0.315,1.220 -3.996 0.315,1.220 -3.996 0.197,1.939 -3.996 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -3.878 0.197,1.939 -3.996 0.197,1.220 -3.996 0.197,1.939 -3.878 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -3.878 0.197,1.220 -3.878 0.315,1.939 -3.878 0.315,1.939 -3.878 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -3.484 0.197,1.939 -3.602 0.197,1.220 -3.602 0.197,1.939 -3.484 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -3.484 0.197,1.220 -3.484 0.315,1.939 -3.484 0.315,1.939 -3.484 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.602 0.315,1.220 -3.484 0.315,1.220 -3.602 0.315,1.939 -3.484 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -3.602 0.315,1.220 -3.602 0.315,1.220 -3.602 0.197,1.939 -3.602 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -0.728 0.709,1.220 -0.846 0.709,1.939 -0.846 0.709,1.220 -0.728 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -0.846 0.591,1.939 -0.846 0.709,1.220 -0.846 0.709,1.220 -0.846 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -0.728 0.591,1.939 -0.846 0.591,1.220 -0.846 0.591,1.939 -0.728 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -0.728 0.709,1.939 -0.728 0.709,1.939 -0.728 0.591,1.220 -0.728 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -0.728 0.315,1.220 -0.846 0.315,1.939 -0.846 0.315,1.220 -0.728 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -0.846 0.315,1.220 -0.846 0.315,1.220 -0.846 0.197,1.939 -0.846 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -0.728 0.197,1.939 -0.846 0.197,1.220 -0.846 0.197,1.939 -0.728 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -0.728 0.197,1.220 -0.728 0.315,1.939 -0.728 0.315,1.939 -0.728 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -0.453 0.315,1.220 -0.453 0.315,1.220 -0.453 0.197,1.939 -0.453 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -0.453 0.197,1.939 -0.335 0.197,1.939 -0.453 0.197,1.220 -0.335 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -0.335 0.197,1.220 -0.335 0.315,1.939 -0.335 0.315,1.939 -0.335 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -0.335 0.315,1.220 -0.453 0.315,1.939 -0.453 0.315,1.220 -0.335 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -0.453 0.591,1.939 -0.453 0.709,1.220 -0.453 0.709,1.220 -0.453 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.220 -0.453 0.591,1.939 -0.335 0.591,1.939 -0.453 0.591,1.220 -0.335 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -0.335 0.709,1.939 -0.335 0.709,1.939 -0.335 0.591,1.220 -0.335 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -0.335 0.709,1.220 -0.453 0.709,1.939 -0.453 0.709,1.220 -0.335 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -0.059 0.591,1.939 -0.059 0.709,1.220 -0.059 0.709,1.220 -0.059 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 0.059 0.591,1.939 -0.059 0.591,1.220 -0.059 0.591,1.939 0.059 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 0.059 0.709,1.939 0.059 0.709,1.939 0.059 0.591,1.220 0.059 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 0.059 0.709,1.220 -0.059 0.709,1.939 -0.059 0.709,1.220 0.059 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 0.059 0.315,1.220 -0.059 0.315,1.939 -0.059 0.315,1.220 0.059 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -0.059 0.315,1.220 -0.059 0.315,1.220 -0.059 0.197,1.939 -0.059 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 0.059 0.197,1.939 -0.059 0.197,1.220 -0.059 0.197,1.939 0.059 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 0.059 0.197,1.220 0.059 0.315,1.939 0.059 0.315,1.939 0.059 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -4.390 0.315,1.220 -4.272 0.315,1.220 -4.390 0.315,1.939 -4.272 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -4.390 0.315,1.220 -4.390 0.315,1.220 -4.390 0.197,1.939 -4.390 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -4.272 0.197,1.939 -4.390 0.197,1.220 -4.390 0.197,1.939 -4.272 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.220 -4.272 0.197,1.220 -4.272 0.315,1.939 -4.272 0.315,1.939 -4.272 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.939 -4.272 0.709,1.220 -4.390 0.709,1.939 -4.390 0.709,1.220 -4.272 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.939 -4.390 0.591,1.939 -4.390 0.709,1.220 -4.390 0.709,1.220 -4.390 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,3,1,-1]
+coord Coordinate { point [1.220 -4.272 0.591,1.939 -4.390 0.591,1.220 -4.390 0.591,1.939 -4.272 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.220 -4.272 0.709,1.939 -4.272 0.709,1.939 -4.272 0.591,1.220 -4.272 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -2.303 0.227,0.335 -2.303 0.197,0.335 -2.421 0.197,0.350 -2.303 0.256,0.339 -2.421 0.227,0.369 -2.303 0.280,0.350 -2.421 0.256,0.394 -2.303 0.299,0.369 -2.421 0.280,0.422 -2.303 0.311,0.394 -2.421 0.299,0.453 -2.303 0.315,0.422 -2.421 0.311,0.453 -2.421 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -2.303 -0.689,0.453 -2.303 0.197,0.453 -2.421 0.197,0.453 -2.421 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -2.392 -0.719,0.453 -2.421 -0.689,0.364 -2.392 -0.719,0.335 -2.421 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -2.303 0.197,0.335 -2.303 -0.689,0.335 -2.421 -0.689,0.335 -2.421 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -2.303 -0.689,0.423 -2.333 -0.719,0.364 -2.333 -0.719,0.335 -2.303 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -1.909 -0.689,0.453 -1.909 0.197,0.453 -2.028 0.197,0.453 -2.028 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -1.998 -0.719,0.453 -2.028 -0.689,0.364 -1.998 -0.719,0.335 -2.028 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -1.909 0.197,0.335 -1.909 -0.689,0.335 -2.028 -0.689,0.335 -2.028 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -1.909 0.227,0.335 -1.909 0.197,0.335 -2.028 0.197,0.350 -1.909 0.256,0.339 -2.028 0.227,0.369 -1.909 0.280,0.350 -2.028 0.256,0.394 -1.909 0.299,0.369 -2.028 0.280,0.422 -1.909 0.311,0.394 -2.028 0.299,0.453 -1.909 0.315,0.422 -2.028 0.311,0.453 -2.028 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -1.909 -0.689,0.423 -1.939 -0.719,0.364 -1.939 -0.719,0.335 -1.909 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,3,4,5,-1,6,3,7,-1,8,6,7,-1,3,5,7,-1,9,8,10,-1,8,7,10,-1,9,10,11,-1,12,9,13,-1,9,11,13,-1]
+coord Coordinate { point [0.339 -1.122 0.227,0.335 -1.122 0.197,0.335 -1.240 0.197,0.350 -1.122 0.256,0.339 -1.240 0.227,0.350 -1.240 0.256,0.369 -1.122 0.280,0.369 -1.240 0.280,0.394 -1.122 0.299,0.422 -1.122 0.311,0.394 -1.240 0.299,0.422 -1.240 0.311,0.453 -1.122 0.315,0.453 -1.240 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.453 -1.240 -0.689,0.453 -1.122 0.197,0.453 -1.240 0.197,0.453 -1.122 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -1.211 -0.719,0.453 -1.240 -0.689,0.364 -1.211 -0.719,0.335 -1.240 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -1.122 0.197,0.335 -1.122 -0.689,0.335 -1.240 -0.689,0.335 -1.240 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -1.122 -0.689,0.423 -1.152 -0.719,0.364 -1.152 -0.719,0.335 -1.122 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -1.516 -0.689,0.453 -1.516 0.197,0.453 -1.634 0.197,0.453 -1.634 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -1.604 -0.719,0.453 -1.634 -0.689,0.364 -1.604 -0.719,0.335 -1.634 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -1.516 0.197,0.335 -1.516 -0.689,0.335 -1.634 -0.689,0.335 -1.634 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,3,4,5,-1,6,3,7,-1,8,6,7,-1,3,5,7,-1,9,8,10,-1,8,7,10,-1,9,10,11,-1,12,9,13,-1,9,11,13,-1]
+coord Coordinate { point [0.339 -1.516 0.227,0.335 -1.516 0.197,0.335 -1.634 0.197,0.350 -1.516 0.256,0.339 -1.634 0.227,0.350 -1.634 0.256,0.369 -1.516 0.280,0.369 -1.634 0.280,0.394 -1.516 0.299,0.422 -1.516 0.311,0.394 -1.634 0.299,0.422 -1.634 0.311,0.453 -1.516 0.315,0.453 -1.634 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -1.516 -0.689,0.423 -1.545 -0.719,0.364 -1.545 -0.719,0.335 -1.516 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -2.303 0.621,-0.059 -2.303 0.591,-0.059 -2.421 0.591,-0.043 -2.303 0.650,-0.055 -2.421 0.621,-0.024 -2.303 0.674,-0.043 -2.421 0.650,0.000 -2.303 0.693,-0.024 -2.421 0.674,0.028 -2.303 0.705,0.000 -2.421 0.693,0.059 -2.303 0.709,0.028 -2.421 0.705,0.059 -2.421 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -2.303 -0.689,0.059 -2.303 0.591,0.059 -2.421 0.591,0.059 -2.421 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -2.392 -0.719,0.059 -2.421 -0.689,-0.059 -2.421 -0.689,-0.030 -2.392 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -2.421 0.591,-0.059 -2.303 -0.689,-0.059 -2.421 -0.689,-0.059 -2.303 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -2.303 -0.689,0.030 -2.333 -0.719,-0.059 -2.303 -0.689,-0.030 -2.333 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -1.909 -0.689,0.059 -1.909 0.591,0.059 -2.028 0.591,0.059 -2.028 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -1.998 -0.719,0.059 -2.028 -0.689,-0.059 -2.028 -0.689,-0.030 -1.998 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -2.028 0.591,-0.059 -1.909 -0.689,-0.059 -2.028 -0.689,-0.059 -1.909 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -1.909 0.621,-0.059 -1.909 0.591,-0.059 -2.028 0.591,-0.043 -1.909 0.650,-0.055 -2.028 0.621,-0.024 -1.909 0.674,-0.043 -2.028 0.650,0.000 -1.909 0.693,-0.024 -2.028 0.674,0.028 -1.909 0.705,0.000 -2.028 0.693,0.059 -1.909 0.709,0.028 -2.028 0.705,0.059 -2.028 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -1.909 -0.689,0.030 -1.939 -0.719,-0.059 -1.909 -0.689,-0.030 -1.939 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -1.122 -0.689,0.059 -1.122 0.591,0.059 -1.240 0.591,0.059 -1.240 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -1.211 -0.719,0.059 -1.240 -0.689,-0.059 -1.240 -0.689,-0.030 -1.211 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -1.240 0.591,-0.059 -1.122 -0.689,-0.059 -1.240 -0.689,-0.059 -1.122 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,3,4,5,-1,6,3,7,-1,8,6,7,-1,3,5,7,-1,9,8,10,-1,8,7,10,-1,9,10,11,-1,12,9,13,-1,9,11,13,-1]
+coord Coordinate { point [-0.055 -1.122 0.621,-0.059 -1.122 0.591,-0.059 -1.240 0.591,-0.043 -1.122 0.650,-0.055 -1.240 0.621,-0.043 -1.240 0.650,-0.024 -1.122 0.674,-0.024 -1.240 0.674,0.000 -1.122 0.693,0.028 -1.122 0.705,0.000 -1.240 0.693,0.028 -1.240 0.705,0.059 -1.122 0.709,0.059 -1.240 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -1.122 -0.689,0.030 -1.152 -0.719,-0.059 -1.122 -0.689,-0.030 -1.152 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -1.516 -0.689,0.059 -1.516 0.591,0.059 -1.634 0.591,0.059 -1.634 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -1.604 -0.719,0.059 -1.634 -0.689,-0.059 -1.634 -0.689,-0.030 -1.604 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -1.634 0.591,-0.059 -1.516 -0.689,-0.059 -1.634 -0.689,-0.059 -1.516 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,3,4,5,-1,6,3,7,-1,8,6,7,-1,3,5,7,-1,9,8,10,-1,8,7,10,-1,9,10,11,-1,12,9,13,-1,9,11,13,-1]
+coord Coordinate { point [-0.055 -1.516 0.621,-0.059 -1.516 0.591,-0.059 -1.634 0.591,-0.043 -1.516 0.650,-0.055 -1.634 0.621,-0.043 -1.634 0.650,-0.024 -1.516 0.674,-0.024 -1.634 0.674,0.000 -1.516 0.693,0.028 -1.516 0.705,0.000 -1.634 0.693,0.028 -1.634 0.705,0.059 -1.516 0.709,0.059 -1.634 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -1.516 -0.689,0.030 -1.545 -0.719,-0.059 -1.516 -0.689,-0.030 -1.545 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -3.878 0.621,-0.059 -3.878 0.591,-0.059 -3.996 0.591,-0.043 -3.878 0.650,-0.055 -3.996 0.621,-0.024 -3.878 0.674,-0.043 -3.996 0.650,0.000 -3.878 0.693,-0.024 -3.996 0.674,0.028 -3.878 0.705,0.000 -3.996 0.693,0.059 -3.878 0.709,0.028 -3.996 0.705,0.059 -3.996 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -3.878 -0.689,0.059 -3.878 0.591,0.059 -3.996 0.591,0.059 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -3.967 -0.719,0.059 -3.996 -0.689,-0.059 -3.996 -0.689,-0.030 -3.967 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -3.996 0.591,-0.059 -3.878 -0.689,-0.059 -3.996 -0.689,-0.059 -3.878 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -3.878 -0.689,0.030 -3.907 -0.719,-0.059 -3.878 -0.689,-0.030 -3.907 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -3.484 -0.689,0.059 -3.484 0.591,0.059 -3.602 0.591,0.059 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -3.484 -0.689,0.030 -3.514 -0.719,-0.059 -3.484 -0.689,-0.030 -3.514 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -3.602 0.591,-0.059 -3.484 -0.689,-0.059 -3.602 -0.689,-0.059 -3.484 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -3.484 0.621,-0.059 -3.484 0.591,-0.059 -3.602 0.591,-0.043 -3.484 0.650,-0.055 -3.602 0.621,-0.024 -3.484 0.674,-0.043 -3.602 0.650,0.000 -3.484 0.693,-0.024 -3.602 0.674,0.028 -3.484 0.705,0.000 -3.602 0.693,0.059 -3.484 0.709,0.028 -3.602 0.705,0.059 -3.602 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -3.573 -0.719,0.059 -3.602 -0.689,-0.059 -3.602 -0.689,-0.030 -3.573 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -2.697 0.621,-0.059 -2.697 0.591,-0.059 -2.815 0.591,-0.043 -2.697 0.650,-0.055 -2.815 0.621,-0.024 -2.697 0.674,-0.043 -2.815 0.650,0.000 -2.697 0.693,-0.024 -2.815 0.674,0.028 -2.697 0.705,0.000 -2.815 0.693,0.059 -2.697 0.709,0.028 -2.815 0.705,0.059 -2.815 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -2.697 -0.689,0.059 -2.697 0.591,0.059 -2.815 0.591,0.059 -2.815 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -2.785 -0.719,0.059 -2.815 -0.689,-0.059 -2.815 -0.689,-0.030 -2.785 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -2.815 0.591,-0.059 -2.697 -0.689,-0.059 -2.815 -0.689,-0.059 -2.697 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -2.697 -0.689,0.030 -2.726 -0.719,-0.059 -2.697 -0.689,-0.030 -2.726 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -3.091 -0.689,0.059 -3.091 0.591,0.059 -3.209 0.591,0.059 -3.209 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -3.091 -0.689,0.030 -3.120 -0.719,-0.059 -3.091 -0.689,-0.030 -3.120 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -3.209 0.591,-0.059 -3.091 -0.689,-0.059 -3.209 -0.689,-0.059 -3.091 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -3.091 0.621,-0.059 -3.091 0.591,-0.059 -3.209 0.591,-0.043 -3.091 0.650,-0.055 -3.209 0.621,-0.024 -3.091 0.674,-0.043 -3.209 0.650,0.000 -3.091 0.693,-0.024 -3.209 0.674,0.028 -3.091 0.705,0.000 -3.209 0.693,0.059 -3.091 0.709,0.028 -3.209 0.705,0.059 -3.209 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -3.179 -0.719,0.059 -3.209 -0.689,-0.059 -3.209 -0.689,-0.030 -3.179 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -2.697 0.227,0.335 -2.697 0.197,0.335 -2.815 0.197,0.350 -2.697 0.256,0.339 -2.815 0.227,0.369 -2.697 0.280,0.350 -2.815 0.256,0.394 -2.697 0.299,0.369 -2.815 0.280,0.422 -2.697 0.311,0.394 -2.815 0.299,0.453 -2.697 0.315,0.422 -2.815 0.311,0.453 -2.815 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -2.697 -0.689,0.453 -2.697 0.197,0.453 -2.815 0.197,0.453 -2.815 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -2.785 -0.719,0.453 -2.815 -0.689,0.364 -2.785 -0.719,0.335 -2.815 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -2.697 0.197,0.335 -2.697 -0.689,0.335 -2.815 -0.689,0.335 -2.815 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -2.697 -0.689,0.423 -2.726 -0.719,0.364 -2.726 -0.719,0.335 -2.697 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -3.091 0.227,0.335 -3.091 0.197,0.335 -3.209 0.197,0.350 -3.091 0.256,0.339 -3.209 0.227,0.369 -3.091 0.280,0.350 -3.209 0.256,0.394 -3.091 0.299,0.369 -3.209 0.280,0.422 -3.091 0.311,0.394 -3.209 0.299,0.453 -3.091 0.315,0.422 -3.209 0.311,0.453 -3.209 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -3.091 -0.689,0.453 -3.091 0.197,0.453 -3.209 0.197,0.453 -3.209 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -3.179 -0.719,0.453 -3.209 -0.689,0.364 -3.179 -0.719,0.335 -3.209 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -3.091 0.197,0.335 -3.091 -0.689,0.335 -3.209 -0.689,0.335 -3.209 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -3.091 -0.689,0.423 -3.120 -0.719,0.364 -3.120 -0.719,0.335 -3.091 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -3.878 0.227,0.335 -3.878 0.197,0.335 -3.996 0.197,0.350 -3.878 0.256,0.339 -3.996 0.227,0.369 -3.878 0.280,0.350 -3.996 0.256,0.394 -3.878 0.299,0.369 -3.996 0.280,0.422 -3.878 0.311,0.394 -3.996 0.299,0.453 -3.878 0.315,0.422 -3.996 0.311,0.453 -3.996 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -3.878 -0.689,0.453 -3.878 0.197,0.453 -3.996 0.197,0.453 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -3.967 -0.719,0.453 -3.996 -0.689,0.364 -3.967 -0.719,0.335 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -3.878 0.197,0.335 -3.878 -0.689,0.335 -3.996 -0.689,0.335 -3.996 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -3.878 -0.689,0.423 -3.907 -0.719,0.364 -3.907 -0.719,0.335 -3.878 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -3.484 -0.689,0.453 -3.484 0.197,0.453 -3.602 0.197,0.453 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -3.484 -0.689,0.423 -3.514 -0.719,0.364 -3.514 -0.719,0.335 -3.484 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -3.484 0.197,0.335 -3.484 -0.689,0.335 -3.602 -0.689,0.335 -3.602 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -3.484 0.227,0.335 -3.484 0.197,0.335 -3.602 0.197,0.350 -3.484 0.256,0.339 -3.602 0.227,0.369 -3.484 0.280,0.350 -3.602 0.256,0.394 -3.484 0.299,0.369 -3.602 0.280,0.422 -3.484 0.311,0.394 -3.602 0.299,0.453 -3.484 0.315,0.422 -3.602 0.311,0.453 -3.602 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -3.573 -0.719,0.453 -3.602 -0.689,0.364 -3.573 -0.719,0.335 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,3,4,5,-1,6,3,7,-1,8,6,7,-1,3,5,7,-1,9,8,10,-1,8,7,10,-1,9,10,11,-1,12,9,13,-1,9,11,13,-1]
+coord Coordinate { point [-0.055 -0.728 0.621,-0.059 -0.728 0.591,-0.059 -0.846 0.591,-0.043 -0.728 0.650,-0.055 -0.846 0.621,-0.043 -0.846 0.650,-0.024 -0.728 0.674,-0.024 -0.846 0.674,0.000 -0.728 0.693,0.028 -0.728 0.705,0.000 -0.846 0.693,0.028 -0.846 0.705,0.059 -0.728 0.709,0.059 -0.846 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -0.728 -0.689,0.059 -0.728 0.591,0.059 -0.846 0.591,0.059 -0.846 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -0.817 -0.719,0.059 -0.846 -0.689,-0.059 -0.846 -0.689,-0.030 -0.817 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -0.846 0.591,-0.059 -0.728 -0.689,-0.059 -0.846 -0.689,-0.059 -0.728 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -0.728 -0.689,0.030 -0.758 -0.719,-0.059 -0.728 -0.689,-0.030 -0.758 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,3,4,5,-1,6,3,7,-1,8,6,7,-1,3,5,7,-1,9,8,10,-1,8,7,10,-1,9,10,11,-1,12,9,13,-1,9,11,13,-1]
+coord Coordinate { point [0.339 -0.728 0.227,0.335 -0.728 0.197,0.335 -0.846 0.197,0.350 -0.728 0.256,0.339 -0.846 0.227,0.350 -0.846 0.256,0.369 -0.728 0.280,0.369 -0.846 0.280,0.394 -0.728 0.299,0.422 -0.728 0.311,0.394 -0.846 0.299,0.422 -0.846 0.311,0.453 -0.728 0.315,0.453 -0.846 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.453 -0.846 -0.689,0.453 -0.728 0.197,0.453 -0.846 0.197,0.453 -0.728 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -0.817 -0.719,0.453 -0.846 -0.689,0.364 -0.817 -0.719,0.335 -0.846 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -0.728 0.197,0.335 -0.728 -0.689,0.335 -0.846 -0.689,0.335 -0.846 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -0.728 -0.689,0.423 -0.758 -0.719,0.364 -0.758 -0.719,0.335 -0.728 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.453 -0.453 -0.689,0.453 -0.335 0.197,0.453 -0.453 0.197,0.453 -0.335 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -0.423 -0.719,0.453 -0.453 -0.689,0.364 -0.423 -0.719,0.335 -0.453 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -0.335 0.197,0.335 -0.335 -0.689,0.335 -0.453 -0.689,0.335 -0.453 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1,4,0,5,-1,6,4,5,-1,0,3,5,-1,7,6,8,-1,6,5,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -0.335 0.227,0.335 -0.335 0.197,0.335 -0.453 0.197,0.339 -0.453 0.227,0.350 -0.335 0.256,0.350 -0.453 0.256,0.369 -0.335 0.280,0.394 -0.335 0.299,0.369 -0.453 0.280,0.422 -0.335 0.311,0.394 -0.453 0.299,0.453 -0.335 0.315,0.422 -0.453 0.311,0.453 -0.453 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -0.335 -0.689,0.423 -0.364 -0.719,0.364 -0.364 -0.719,0.335 -0.335 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -0.335 -0.689,0.059 -0.335 0.591,0.059 -0.453 0.591,0.059 -0.453 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -0.423 -0.719,0.059 -0.453 -0.689,-0.059 -0.453 -0.689,-0.030 -0.423 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -0.453 0.591,-0.059 -0.335 -0.689,-0.059 -0.453 -0.689,-0.059 -0.335 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,4,0,5,-1,6,4,5,-1,0,2,5,-1,7,6,8,-1,6,5,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -0.335 0.621,-0.059 -0.335 0.591,-0.055 -0.453 0.621,-0.059 -0.453 0.591,-0.043 -0.335 0.650,-0.043 -0.453 0.650,-0.024 -0.335 0.674,0.000 -0.335 0.693,-0.024 -0.453 0.674,0.028 -0.335 0.705,0.000 -0.453 0.693,0.059 -0.335 0.709,0.028 -0.453 0.705,0.059 -0.453 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -0.335 -0.689,0.030 -0.364 -0.719,-0.059 -0.335 -0.689,-0.030 -0.364 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 0.059 -0.689,0.059 0.059 0.591,0.059 -0.059 0.591,0.059 -0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -0.030 -0.719,0.059 -0.059 -0.689,-0.059 -0.059 -0.689,-0.030 -0.030 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -0.059 0.591,-0.059 0.059 -0.689,-0.059 -0.059 -0.689,-0.059 0.059 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1,4,0,5,-1,0,3,5,-1,6,4,7,-1,8,6,7,-1,4,5,7,-1,8,7,9,-1,10,8,11,-1,8,9,11,-1,12,10,13,-1,10,11,13,-1]
+coord Coordinate { point [-0.055 0.059 0.621,-0.059 0.059 0.591,-0.059 -0.059 0.591,-0.055 -0.059 0.621,-0.043 0.059 0.650,-0.043 -0.059 0.650,-0.024 0.059 0.674,-0.024 -0.059 0.674,0.000 0.059 0.693,0.000 -0.059 0.693,0.028 0.059 0.705,0.028 -0.059 0.705,0.059 0.059 0.709,0.059 -0.059 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 0.059 -0.689,0.030 0.030 -0.719,-0.059 0.059 -0.689,-0.030 0.030 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1,4,0,5,-1,0,3,5,-1,6,4,7,-1,8,6,7,-1,4,5,7,-1,8,7,9,-1,10,8,11,-1,8,9,11,-1,12,10,13,-1,10,11,13,-1]
+coord Coordinate { point [0.339 0.059 0.227,0.335 0.059 0.197,0.335 -0.059 0.197,0.339 -0.059 0.227,0.350 0.059 0.256,0.350 -0.059 0.256,0.369 0.059 0.280,0.369 -0.059 0.280,0.394 0.059 0.299,0.394 -0.059 0.299,0.422 0.059 0.311,0.422 -0.059 0.311,0.453 0.059 0.315,0.453 -0.059 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.453 -0.059 -0.689,0.453 0.059 0.197,0.453 -0.059 0.197,0.453 0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -0.030 -0.719,0.453 -0.059 -0.689,0.364 -0.030 -0.719,0.335 -0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 0.059 0.197,0.335 0.059 -0.689,0.335 -0.059 -0.689,0.335 -0.059 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 0.059 -0.689,0.423 0.030 -0.719,0.364 0.030 -0.719,0.335 0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [0.339 -4.272 0.227,0.335 -4.272 0.197,0.335 -4.390 0.197,0.350 -4.272 0.256,0.339 -4.390 0.227,0.369 -4.272 0.280,0.350 -4.390 0.256,0.394 -4.272 0.299,0.369 -4.390 0.280,0.422 -4.272 0.311,0.394 -4.390 0.299,0.453 -4.272 0.315,0.422 -4.390 0.311,0.453 -4.390 0.315]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.453 -4.272 -0.689,0.453 -4.272 0.197,0.453 -4.390 0.197,0.453 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -4.360 -0.719,0.453 -4.390 -0.689,0.364 -4.360 -0.719,0.335 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.335 -4.272 0.197,0.335 -4.272 -0.689,0.335 -4.390 -0.689,0.335 -4.390 0.197]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.453 -4.272 -0.689,0.423 -4.301 -0.719,0.364 -4.301 -0.719,0.335 -4.272 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,4,-1,0,2,4,-1,5,3,6,-1,3,4,6,-1,7,5,8,-1,5,6,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,11,12,13,-1]
+coord Coordinate { point [-0.055 -4.272 0.621,-0.059 -4.272 0.591,-0.059 -4.390 0.591,-0.043 -4.272 0.650,-0.055 -4.390 0.621,-0.024 -4.272 0.674,-0.043 -4.390 0.650,0.000 -4.272 0.693,-0.024 -4.390 0.674,0.028 -4.272 0.705,0.000 -4.390 0.693,0.059 -4.272 0.709,0.028 -4.390 0.705,0.059 -4.390 0.709]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.059 -4.272 -0.689,0.059 -4.272 0.591,0.059 -4.390 0.591,0.059 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.030 -4.360 -0.719,0.059 -4.390 -0.689,-0.059 -4.390 -0.689,-0.030 -4.360 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [-0.059 -4.390 0.591,-0.059 -4.272 -0.689,-0.059 -4.390 -0.689,-0.059 -4.272 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.059 -4.272 -0.689,0.030 -4.301 -0.719,-0.059 -4.272 -0.689,-0.030 -4.301 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.421 0.315,1.969 -2.333 0.285,1.939 -2.303 0.315,1.969 -2.392 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.421 0.197,1.969 -2.392 0.285,1.939 -2.421 0.315,1.969 -2.392 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -2.303 0.197,1.969 -2.333 0.226,1.939 -2.421 0.197,1.969 -2.392 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -2.303 0.315,1.969 -2.333 0.285,1.939 -2.303 0.197,1.969 -2.333 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.028 0.197,1.969 -1.998 0.285,1.939 -2.028 0.315,1.969 -1.998 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.909 0.197,1.969 -1.939 0.226,1.939 -2.028 0.197,1.969 -1.998 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.909 0.315,1.969 -1.939 0.285,1.939 -1.909 0.197,1.969 -1.939 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.028 0.315,1.969 -1.939 0.285,1.939 -1.909 0.315,1.969 -1.998 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -1.240 0.315,1.969 -1.152 0.285,1.939 -1.122 0.315,1.969 -1.211 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -1.240 0.197,1.969 -1.211 0.285,1.939 -1.240 0.315,1.969 -1.211 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.122 0.197,1.969 -1.152 0.226,1.939 -1.240 0.197,1.969 -1.211 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.122 0.315,1.969 -1.152 0.285,1.939 -1.122 0.197,1.969 -1.152 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -1.634 0.197,1.969 -1.604 0.285,1.939 -1.634 0.315,1.969 -1.604 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.516 0.197,1.969 -1.545 0.226,1.939 -1.634 0.197,1.969 -1.604 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.516 0.315,1.969 -1.545 0.285,1.939 -1.516 0.197,1.969 -1.545 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -1.634 0.315,1.969 -1.545 0.285,1.939 -1.516 0.315,1.969 -1.604 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.421 0.709,1.969 -2.333 0.679,1.939 -2.303 0.709,1.969 -2.392 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -2.392 0.620,1.969 -2.392 0.679,1.939 -2.421 0.709,1.939 -2.421 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -2.303 0.591,1.969 -2.333 0.620,1.939 -2.421 0.591,1.969 -2.392 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -2.303 0.709,1.969 -2.333 0.679,1.969 -2.333 0.620,1.939 -2.303 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.998 0.620,1.969 -1.998 0.679,1.939 -2.028 0.709,1.939 -2.028 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.909 0.591,1.969 -1.939 0.620,1.939 -2.028 0.591,1.969 -1.998 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -1.909 0.709,1.969 -1.939 0.679,1.969 -1.939 0.620,1.939 -1.909 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.028 0.709,1.969 -1.939 0.679,1.939 -1.909 0.709,1.969 -1.998 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.211 0.620,1.969 -1.211 0.679,1.939 -1.240 0.709,1.939 -1.240 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.122 0.591,1.969 -1.152 0.620,1.939 -1.240 0.591,1.969 -1.211 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -1.122 0.709,1.969 -1.152 0.679,1.969 -1.152 0.620,1.939 -1.122 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -1.240 0.709,1.969 -1.152 0.679,1.939 -1.122 0.709,1.969 -1.211 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.604 0.620,1.969 -1.604 0.679,1.939 -1.634 0.709,1.939 -1.634 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -1.516 0.591,1.969 -1.545 0.620,1.939 -1.634 0.591,1.969 -1.604 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -1.516 0.709,1.969 -1.545 0.679,1.969 -1.545 0.620,1.939 -1.516 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -1.634 0.709,1.969 -1.545 0.679,1.939 -1.516 0.709,1.969 -1.604 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.996 0.709,1.969 -3.907 0.679,1.939 -3.878 0.709,1.969 -3.967 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.967 0.620,1.969 -3.967 0.679,1.939 -3.996 0.709,1.939 -3.996 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.878 0.591,1.969 -3.907 0.620,1.939 -3.996 0.591,1.969 -3.967 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -3.878 0.709,1.969 -3.907 0.679,1.969 -3.907 0.620,1.939 -3.878 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.484 0.591,1.969 -3.514 0.620,1.939 -3.602 0.591,1.969 -3.573 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -3.484 0.709,1.969 -3.514 0.679,1.969 -3.514 0.620,1.939 -3.484 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.602 0.709,1.969 -3.514 0.679,1.939 -3.484 0.709,1.969 -3.573 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.573 0.620,1.969 -3.573 0.679,1.939 -3.602 0.709,1.939 -3.602 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.815 0.709,1.969 -2.726 0.679,1.939 -2.697 0.709,1.969 -2.785 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -2.785 0.620,1.969 -2.785 0.679,1.939 -2.815 0.709,1.939 -2.815 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -2.697 0.591,1.969 -2.726 0.620,1.939 -2.815 0.591,1.969 -2.785 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -2.697 0.709,1.969 -2.726 0.679,1.969 -2.726 0.620,1.939 -2.697 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.091 0.591,1.969 -3.120 0.620,1.939 -3.209 0.591,1.969 -3.179 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -3.091 0.709,1.969 -3.120 0.679,1.969 -3.120 0.620,1.939 -3.091 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.209 0.709,1.969 -3.120 0.679,1.939 -3.091 0.709,1.969 -3.179 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.179 0.620,1.969 -3.179 0.679,1.939 -3.209 0.709,1.939 -3.209 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.815 0.315,1.969 -2.726 0.285,1.939 -2.697 0.315,1.969 -2.785 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -2.815 0.197,1.969 -2.785 0.285,1.939 -2.815 0.315,1.969 -2.785 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -2.697 0.197,1.969 -2.726 0.226,1.939 -2.815 0.197,1.969 -2.785 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -2.697 0.315,1.969 -2.726 0.285,1.939 -2.697 0.197,1.969 -2.726 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.209 0.315,1.969 -3.120 0.285,1.939 -3.091 0.315,1.969 -3.179 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.209 0.197,1.969 -3.179 0.285,1.939 -3.209 0.315,1.969 -3.179 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.091 0.197,1.969 -3.120 0.226,1.939 -3.209 0.197,1.969 -3.179 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.091 0.315,1.969 -3.120 0.285,1.939 -3.091 0.197,1.969 -3.120 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.996 0.315,1.969 -3.907 0.285,1.939 -3.878 0.315,1.969 -3.967 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.996 0.197,1.969 -3.967 0.285,1.939 -3.996 0.315,1.969 -3.967 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.878 0.197,1.969 -3.907 0.226,1.939 -3.996 0.197,1.969 -3.967 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.878 0.315,1.969 -3.907 0.285,1.939 -3.878 0.197,1.969 -3.907 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.484 0.197,1.969 -3.514 0.226,1.939 -3.602 0.197,1.969 -3.573 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -3.484 0.315,1.969 -3.514 0.285,1.939 -3.484 0.197,1.969 -3.514 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.602 0.315,1.969 -3.514 0.285,1.939 -3.484 0.315,1.969 -3.573 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -3.602 0.197,1.969 -3.573 0.285,1.939 -3.602 0.315,1.969 -3.573 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.846 0.709,1.969 -0.758 0.679,1.939 -0.728 0.709,1.969 -0.817 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -0.817 0.620,1.969 -0.817 0.679,1.939 -0.846 0.709,1.939 -0.846 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -0.728 0.591,1.969 -0.758 0.620,1.939 -0.846 0.591,1.969 -0.817 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -0.728 0.709,1.969 -0.758 0.679,1.969 -0.758 0.620,1.939 -0.728 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.846 0.315,1.969 -0.758 0.285,1.939 -0.728 0.315,1.969 -0.817 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.846 0.197,1.969 -0.817 0.285,1.939 -0.846 0.315,1.969 -0.817 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -0.728 0.197,1.969 -0.758 0.226,1.939 -0.846 0.197,1.969 -0.817 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -0.728 0.315,1.969 -0.758 0.285,1.939 -0.728 0.197,1.969 -0.758 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.453 0.197,1.969 -0.423 0.285,1.939 -0.453 0.315,1.969 -0.423 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -0.335 0.197,1.969 -0.364 0.226,1.939 -0.453 0.197,1.969 -0.423 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -0.335 0.315,1.969 -0.364 0.285,1.939 -0.335 0.197,1.969 -0.364 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.453 0.315,1.969 -0.364 0.285,1.939 -0.335 0.315,1.969 -0.423 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -0.423 0.620,1.969 -0.423 0.679,1.939 -0.453 0.709,1.939 -0.453 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -0.335 0.591,1.969 -0.364 0.620,1.939 -0.453 0.591,1.969 -0.423 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -0.335 0.709,1.969 -0.364 0.679,1.969 -0.364 0.620,1.939 -0.335 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.453 0.709,1.969 -0.364 0.679,1.939 -0.335 0.709,1.969 -0.423 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -0.030 0.620,1.969 -0.030 0.679,1.939 -0.059 0.709,1.939 -0.059 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 0.059 0.591,1.969 0.030 0.620,1.939 -0.059 0.591,1.969 -0.030 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 0.059 0.709,1.969 0.030 0.679,1.969 0.030 0.620,1.939 0.059 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.059 0.709,1.969 0.030 0.679,1.939 0.059 0.709,1.969 -0.030 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.059 0.315,1.969 0.030 0.285,1.939 0.059 0.315,1.969 -0.030 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -0.059 0.197,1.969 -0.030 0.285,1.939 -0.059 0.315,1.969 -0.030 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 0.059 0.197,1.969 0.030 0.226,1.939 -0.059 0.197,1.969 -0.030 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 0.059 0.315,1.969 0.030 0.285,1.939 0.059 0.197,1.969 0.030 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -4.390 0.315,1.969 -4.301 0.285,1.939 -4.272 0.315,1.969 -4.360 0.285]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -4.390 0.197,1.969 -4.360 0.285,1.939 -4.390 0.315,1.969 -4.360 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -4.272 0.197,1.969 -4.301 0.226,1.939 -4.390 0.197,1.969 -4.360 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -4.272 0.315,1.969 -4.301 0.285,1.939 -4.272 0.197,1.969 -4.301 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [1.939 -4.390 0.709,1.969 -4.301 0.679,1.939 -4.272 0.709,1.969 -4.360 0.679]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -4.360 0.620,1.969 -4.360 0.679,1.939 -4.390 0.709,1.939 -4.390 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [1.939 -4.272 0.591,1.969 -4.301 0.620,1.939 -4.390 0.591,1.969 -4.360 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.939 -4.272 0.709,1.969 -4.301 0.679,1.969 -4.301 0.620,1.939 -4.272 0.591]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -2.333 -0.719,0.453 -2.303 -0.689,0.453 -2.421 -0.689,0.423 -2.392 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -2.333 -0.719,0.423 -2.333 -0.719,0.423 -2.392 -0.719,0.364 -2.392 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -2.303 -0.689,0.364 -2.333 -0.719,0.335 -2.421 -0.689,0.364 -2.392 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -1.939 -0.719,0.453 -1.909 -0.689,0.453 -2.028 -0.689,0.423 -1.998 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -1.939 -0.719,0.423 -1.939 -0.719,0.423 -1.998 -0.719,0.364 -1.998 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -1.909 -0.689,0.364 -1.939 -0.719,0.335 -2.028 -0.689,0.364 -1.998 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -1.152 -0.719,0.453 -1.122 -0.689,0.453 -1.240 -0.689,0.423 -1.211 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -1.152 -0.719,0.423 -1.152 -0.719,0.423 -1.211 -0.719,0.364 -1.211 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -1.122 -0.689,0.364 -1.152 -0.719,0.335 -1.240 -0.689,0.364 -1.211 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -1.545 -0.719,0.453 -1.516 -0.689,0.453 -1.634 -0.689,0.423 -1.604 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -1.545 -0.719,0.423 -1.545 -0.719,0.423 -1.604 -0.719,0.364 -1.604 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -1.516 -0.689,0.364 -1.545 -0.719,0.335 -1.634 -0.689,0.364 -1.604 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -2.333 -0.719,0.059 -2.303 -0.689,0.030 -2.392 -0.719,0.059 -2.421 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -2.333 -0.719,0.030 -2.333 -0.719,0.030 -2.392 -0.719,-0.030 -2.392 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -2.303 -0.689,-0.030 -2.333 -0.719,-0.030 -2.392 -0.719,-0.059 -2.421 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -1.939 -0.719,0.059 -1.909 -0.689,0.030 -1.998 -0.719,0.059 -2.028 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -1.939 -0.719,0.030 -1.939 -0.719,0.030 -1.998 -0.719,-0.030 -1.998 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -1.909 -0.689,-0.030 -1.939 -0.719,-0.030 -1.998 -0.719,-0.059 -2.028 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -1.152 -0.719,0.059 -1.122 -0.689,0.030 -1.211 -0.719,0.059 -1.240 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -1.152 -0.719,0.030 -1.152 -0.719,0.030 -1.211 -0.719,-0.030 -1.211 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -1.122 -0.689,-0.030 -1.152 -0.719,-0.030 -1.211 -0.719,-0.059 -1.240 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -1.545 -0.719,0.059 -1.516 -0.689,0.030 -1.604 -0.719,0.059 -1.634 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -1.545 -0.719,0.030 -1.545 -0.719,0.030 -1.604 -0.719,-0.030 -1.604 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -1.516 -0.689,-0.030 -1.545 -0.719,-0.030 -1.604 -0.719,-0.059 -1.634 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -3.907 -0.719,0.059 -3.878 -0.689,0.030 -3.967 -0.719,0.059 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -3.907 -0.719,0.030 -3.907 -0.719,0.030 -3.967 -0.719,-0.030 -3.967 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -3.878 -0.689,-0.030 -3.907 -0.719,-0.030 -3.967 -0.719,-0.059 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -3.514 -0.719,0.059 -3.484 -0.689,0.030 -3.573 -0.719,0.059 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -3.514 -0.719,0.030 -3.514 -0.719,0.030 -3.573 -0.719,-0.030 -3.573 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -3.484 -0.689,-0.030 -3.514 -0.719,-0.030 -3.573 -0.719,-0.059 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -2.726 -0.719,0.059 -2.697 -0.689,0.030 -2.785 -0.719,0.059 -2.815 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -2.726 -0.719,0.030 -2.726 -0.719,0.030 -2.785 -0.719,-0.030 -2.785 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -2.697 -0.689,-0.030 -2.726 -0.719,-0.030 -2.785 -0.719,-0.059 -2.815 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -3.120 -0.719,0.059 -3.091 -0.689,0.030 -3.179 -0.719,0.059 -3.209 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -3.120 -0.719,0.030 -3.120 -0.719,0.030 -3.179 -0.719,-0.030 -3.179 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -3.091 -0.689,-0.030 -3.120 -0.719,-0.030 -3.179 -0.719,-0.059 -3.209 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -2.726 -0.719,0.453 -2.697 -0.689,0.453 -2.815 -0.689,0.423 -2.785 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -2.726 -0.719,0.423 -2.726 -0.719,0.423 -2.785 -0.719,0.364 -2.785 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -2.697 -0.689,0.364 -2.726 -0.719,0.335 -2.815 -0.689,0.364 -2.785 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -3.120 -0.719,0.453 -3.091 -0.689,0.453 -3.209 -0.689,0.423 -3.179 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -3.120 -0.719,0.423 -3.120 -0.719,0.423 -3.179 -0.719,0.364 -3.179 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -3.091 -0.689,0.364 -3.120 -0.719,0.335 -3.209 -0.689,0.364 -3.179 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -3.907 -0.719,0.453 -3.878 -0.689,0.423 -3.967 -0.719,0.453 -3.996 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.364 -3.967 -0.719,0.423 -3.907 -0.719,0.423 -3.967 -0.719,0.364 -3.907 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -3.878 -0.689,0.364 -3.907 -0.719,0.335 -3.996 -0.689,0.364 -3.967 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -3.514 -0.719,0.453 -3.484 -0.689,0.423 -3.573 -0.719,0.453 -3.602 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.364 -3.573 -0.719,0.423 -3.514 -0.719,0.423 -3.573 -0.719,0.364 -3.514 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -3.484 -0.689,0.364 -3.514 -0.719,0.335 -3.602 -0.689,0.364 -3.573 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -0.758 -0.719,0.059 -0.728 -0.689,0.030 -0.817 -0.719,0.059 -0.846 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -0.758 -0.719,0.030 -0.758 -0.719,0.030 -0.817 -0.719,-0.030 -0.817 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -0.728 -0.689,-0.030 -0.758 -0.719,-0.030 -0.817 -0.719,-0.059 -0.846 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -0.758 -0.719,0.453 -0.728 -0.689,0.453 -0.846 -0.689,0.423 -0.817 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -0.758 -0.719,0.423 -0.758 -0.719,0.423 -0.817 -0.719,0.364 -0.817 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -0.728 -0.689,0.364 -0.758 -0.719,0.335 -0.846 -0.689,0.364 -0.817 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [0.423 -0.364 -0.719,0.453 -0.335 -0.689,0.453 -0.453 -0.689,0.423 -0.423 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 -0.364 -0.719,0.423 -0.364 -0.719,0.423 -0.423 -0.719,0.364 -0.423 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -0.335 -0.689,0.364 -0.364 -0.719,0.335 -0.453 -0.689,0.364 -0.423 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -0.364 -0.719,0.059 -0.335 -0.689,0.030 -0.423 -0.719,0.059 -0.453 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -0.364 -0.719,0.030 -0.364 -0.719,0.030 -0.423 -0.719,-0.030 -0.423 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -0.335 -0.689,-0.030 -0.364 -0.719,-0.030 -0.423 -0.719,-0.059 -0.453 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 0.030 -0.719,0.059 0.059 -0.689,0.030 -0.030 -0.719,0.059 -0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 0.030 -0.719,0.030 0.030 -0.719,0.030 -0.030 -0.719,-0.030 -0.030 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 0.059 -0.689,-0.030 0.030 -0.719,-0.030 -0.030 -0.719,-0.059 -0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 0.030 -0.719,0.453 0.059 -0.689,0.423 -0.030 -0.719,0.453 -0.059 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [0.364 0.030 -0.719,0.423 0.030 -0.719,0.423 -0.030 -0.719,0.364 -0.030 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 0.059 -0.689,0.364 0.030 -0.719,0.335 -0.059 -0.689,0.364 -0.030 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.423 -4.301 -0.719,0.453 -4.272 -0.689,0.423 -4.360 -0.719,0.453 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [0.364 -4.360 -0.719,0.423 -4.301 -0.719,0.423 -4.360 -0.719,0.364 -4.301 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.335 -4.272 -0.689,0.364 -4.301 -0.719,0.335 -4.390 -0.689,0.364 -4.360 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [0.030 -4.301 -0.719,0.059 -4.272 -0.689,0.030 -4.360 -0.719,0.059 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.030 -4.301 -0.719,0.030 -4.301 -0.719,0.030 -4.360 -0.719,-0.030 -4.360 -0.719]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.059 -4.272 -0.689,-0.030 -4.301 -0.719,-0.030 -4.360 -0.719,-0.059 -4.390 -0.689]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -2.333 0.226,1.969 -2.333 0.285,1.969 -2.392 0.285,1.969 -2.392 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.939 0.226,1.969 -1.939 0.285,1.969 -1.998 0.285,1.969 -1.998 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.152 0.226,1.969 -1.152 0.285,1.969 -1.211 0.285,1.969 -1.211 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.545 0.226,1.969 -1.545 0.285,1.969 -1.604 0.285,1.969 -1.604 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -2.333 0.620,1.969 -2.333 0.679,1.969 -2.392 0.679,1.969 -2.392 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.939 0.620,1.969 -1.939 0.679,1.969 -1.998 0.679,1.969 -1.998 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.152 0.620,1.969 -1.152 0.679,1.969 -1.211 0.679,1.969 -1.211 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -1.545 0.620,1.969 -1.545 0.679,1.969 -1.604 0.679,1.969 -1.604 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.907 0.620,1.969 -3.907 0.679,1.969 -3.967 0.679,1.969 -3.967 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.514 0.620,1.969 -3.514 0.679,1.969 -3.573 0.679,1.969 -3.573 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -2.726 0.620,1.969 -2.726 0.679,1.969 -2.785 0.679,1.969 -2.785 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.120 0.620,1.969 -3.120 0.679,1.969 -3.179 0.679,1.969 -3.179 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -2.726 0.226,1.969 -2.726 0.285,1.969 -2.785 0.285,1.969 -2.785 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.120 0.226,1.969 -3.120 0.285,1.969 -3.179 0.285,1.969 -3.179 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.907 0.226,1.969 -3.907 0.285,1.969 -3.967 0.285,1.969 -3.967 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -3.514 0.226,1.969 -3.514 0.285,1.969 -3.573 0.285,1.969 -3.573 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.969 -0.758 0.679,1.969 -0.817 0.679,1.969 -0.817 0.620,1.969 -0.758 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -0.758 0.226,1.969 -0.758 0.285,1.969 -0.817 0.285,1.969 -0.817 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -0.364 0.226,1.969 -0.364 0.285,1.969 -0.423 0.285,1.969 -0.423 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [1.969 -0.364 0.679,1.969 -0.423 0.679,1.969 -0.423 0.620,1.969 -0.364 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 0.030 0.620,1.969 0.030 0.679,1.969 -0.030 0.679,1.969 -0.030 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 0.030 0.226,1.969 0.030 0.285,1.969 -0.030 0.285,1.969 -0.030 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -4.301 0.226,1.969 -4.301 0.285,1.969 -4.360 0.285,1.969 -4.360 0.226]
+}}
+appearance Appearance{material USE PIN-02 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [1.969 -4.301 0.620,1.969 -4.301 0.679,1.969 -4.360 0.679,1.969 -4.360 0.620]
+}}
+appearance Appearance{material USE PIN-02 }
+}

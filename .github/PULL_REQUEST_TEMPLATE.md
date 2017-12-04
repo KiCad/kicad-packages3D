@@ -1,5 +1,6 @@
 Thanks for creating a pull request to contribute to the KiCad libraries! To speed up integration of your PR, please check the following items as you complete them:
 
+- [ ] A screenshot of the model(s) aligned with KiCad footprints is *very useful*
 - [ ] Was the 3D model(s) created in a mechanical modelling program?
 - [ ] Source files (or scripts) have been contributed 
 - [ ] Step model submitted in 1:1 scale

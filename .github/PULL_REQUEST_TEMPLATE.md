@@ -1,3 +1,6 @@
+*Replace this line with your commit message! Please provide a description of your pull request*
+
+------------
 Thanks for creating a pull request to contribute to the KiCad libraries! To speed up integration of your PR, please check the following items as you complete them:
 
 - [ ] A screenshot of the model(s) aligned with KiCad footprints is *very useful*

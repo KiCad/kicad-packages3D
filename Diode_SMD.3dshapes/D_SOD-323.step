@@ -3,29 +3,16 @@ HEADER;
 /* D_SOD-323.step 3D STEP model for use in ECAD systems
  * Copyright (C) 2017, kicad StepUp
  * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see http://www.gnu.org/licenses/.
- * 
- * As a special exception, if you create a design which uses this symbol,
- * and embed this symbol or unaltered portions of this symbol into the design,
- * this symbol does not by itself cause the resulting design to be covered by
- * the GNU General Public License.
- * This exception does not however invalidate any other reasons why the design
- * itself might be covered by the GNU General Public License. 
- * If you modify this symbol, you may extend this exception to your version of the symbol,
- * but you are not obligated to do so.
- * If you do not wish to do so, delete this exception statement from your version
- * Risk disclaimer
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
  * *USE 3D CAD DATA AT YOUR OWN RISK*
  * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
  * 
@@ -37,19 +24,19 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'D_SOD-323.step',
-/* time_stamp */ '2017-05-08T20:37:46',
+/* time_stamp */ '2017-12-17T18:24:20',
 /* author */ ('kicad StepUp','ksu'),
 /* organization */ ('FreeCAD'),
 /* preprocessor_version */ 'OCC',
 /* originating_system */ 'kicad StepUp',
 /* authorisation */ '');
 
-FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 
 DATA;
-#1 = APPLICATION_PROTOCOL_DEFINITION('committee draft',
-'automotive_design',1997,#2);
+#1 = APPLICATION_PROTOCOL_DEFINITION('international standard',
+'automotive_design',2000,#2);
 #2 = APPLICATION_CONTEXT(
 'core data for automotive mechanical design processes');
 #3 = SHAPE_DEFINITION_REPRESENTATION(#4,#10);
@@ -57,7 +44,7 @@ DATA;
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
 #7 = PRODUCT('D_SOD_323','D_SOD_323','',(#8));
-#8 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#1815);
 #11 = AXIS2_PLACEMENT_3D('',#12,#13,#14);
@@ -2016,9 +2003,9 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#1816,#1817,#1818)) REPRESENTATION_CONTEXT
 #1816 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
 #1817 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
 #1818 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
-#1819 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(2.E-07),#1816,
+#1819 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#1816,
 'distance_accuracy_value','confusion accuracy');
-#1820 = PRODUCT_TYPE('part',$,(#7));
+#1820 = PRODUCT_RELATED_PRODUCT_CATEGORY('part',$,(#7));
 #1821 = MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION('',(
 #1822,#1830,#1837,#1844,#1851,#1858,#1866,#1873,#1880,#1887,#1894,
 #1901,#1908,#1915,#1922,#1929,#1936,#1943,#1950,#1957,#1964,#1971,
@@ -2034,7 +2021,7 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#1816,#1817,#1818)) REPRESENTATION_CONTEXT
 #1826 = SURFACE_STYLE_FILL_AREA(#1827);
 #1827 = FILL_AREA_STYLE('',(#1828));
 #1828 = FILL_AREA_STYLE_COLOUR('',#1829);
-#1829 = COLOUR_RGB('',0.824000000954,0.819999992847,0.78100001812);
+#1829 = COLOUR_RGB('',0.823529422283,0.819607853889,0.780392169952);
 #1830 = STYLED_ITEM('color',(#1831),#57);
 #1831 = PRESENTATION_STYLE_ASSIGNMENT((#1832));
 #1832 = SURFACE_STYLE_USAGE(.BOTH.,#1833);
@@ -2070,7 +2057,7 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#1816,#1817,#1818)) REPRESENTATION_CONTEXT
 #1862 = SURFACE_STYLE_FILL_AREA(#1863);
 #1863 = FILL_AREA_STYLE('',(#1864));
 #1864 = FILL_AREA_STYLE_COLOUR('',#1865);
-#1865 = COLOUR_RGB('',0.148000001907,0.144999995828,0.144999995828);
+#1865 = COLOUR_RGB('',0.145098045468,0.141176477075,0.141176477075);
 #1866 = STYLED_ITEM('color',(#1867),#302);
 #1867 = PRESENTATION_STYLE_ASSIGNMENT((#1868));
 #1868 = SURFACE_STYLE_USAGE(.BOTH.,#1869);
@@ -2414,7 +2401,7 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#1816,#1817,#1818)) REPRESENTATION_CONTEXT
 #2206 = SURFACE_STYLE_FILL_AREA(#2207);
 #2207 = FILL_AREA_STYLE('',(#2208));
 #2208 = FILL_AREA_STYLE_COLOUR('',#2209);
-#2209 = COLOUR_RGB('',0.690999984741,0.663999974728,0.597999989986);
+#2209 = COLOUR_RGB('',0.690196096897,0.662745118141,0.596078455448);
 #2210 = STYLED_ITEM('color',(#2211),#1607);
 #2211 = PRESENTATION_STYLE_ASSIGNMENT((#2212));
 #2212 = SURFACE_STYLE_USAGE(.BOTH.,#2213);

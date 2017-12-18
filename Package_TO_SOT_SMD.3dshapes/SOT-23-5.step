@@ -3,29 +3,16 @@ HEADER;
 /* SOT-23-5.step 3D STEP model for use in ECAD systems
  * Copyright (C) 2017, kicad StepUp
  * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see http://www.gnu.org/licenses/.
- * 
- * As a special exception, if you create a design which uses this symbol,
- * and embed this symbol or unaltered portions of this symbol into the design,
- * this symbol does not by itself cause the resulting design to be covered by
- * the GNU General Public License.
- * This exception does not however invalidate any other reasons why the design
- * itself might be covered by the GNU General Public License. 
- * If you modify this symbol, you may extend this exception to your version of the symbol,
- * but you are not obligated to do so.
- * If you do not wish to do so, delete this exception statement from your version
- * Risk disclaimer
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
  * *USE 3D CAD DATA AT YOUR OWN RISK*
  * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
  * 
@@ -37,19 +24,19 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'SOT-23-5.step',
-/* time_stamp */ '2017-05-13T21:02:40',
+/* time_stamp */ '2017-12-18T01:05:16',
 /* author */ ('kicad StepUp','ksu'),
 /* organization */ ('FreeCAD'),
 /* preprocessor_version */ 'OCC',
 /* originating_system */ 'kicad StepUp',
 /* authorisation */ '');
 
-FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
 
 DATA;
-#1 = APPLICATION_PROTOCOL_DEFINITION('committee draft',
-'automotive_design',1997,#2);
+#1 = APPLICATION_PROTOCOL_DEFINITION('international standard',
+'automotive_design',2000,#2);
 #2 = APPLICATION_CONTEXT(
 'core data for automotive mechanical design processes');
 #3 = SHAPE_DEFINITION_REPRESENTATION(#4,#10);
@@ -57,7 +44,7 @@ DATA;
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
 #7 = PRODUCT('SOT_23_5','SOT_23_5','',(#8));
-#8 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#3176);
 #11 = AXIS2_PLACEMENT_3D('',#12,#13,#14);
@@ -1188,7 +1175,7 @@ DATA;
 #1052 = AXIS2_PLACEMENT_3D('',#1053,#1054,#1055);
 #1053 = CARTESIAN_POINT('',(0.85,1.2,0.65));
 #1054 = DIRECTION('',(2.22044604925E-16,-1.,0.));
-#1055 = DIRECTION('',(1.,2.22044604925E-16,8.881784197001E-16));
+#1055 = DIRECTION('',(1.,2.22044604925E-16,1.33226762955E-15));
 #1056 = ORIENTED_EDGE('',*,*,#1057,.T.);
 #1057 = EDGE_CURVE('',#1049,#464,#1058,.T.);
 #1058 = LINE('',#1059,#1060);
@@ -1281,7 +1268,7 @@ DATA;
 #1144 = AXIS2_PLACEMENT_3D('',#1145,#1146,#1147);
 #1145 = CARTESIAN_POINT('',(0.85,-1.2,0.65));
 #1146 = DIRECTION('',(2.22044604925E-16,-1.,0.));
-#1147 = DIRECTION('',(1.,2.22044604925E-16,8.881784197001E-16));
+#1147 = DIRECTION('',(1.,2.22044604925E-16,1.33226762955E-15));
 #1148 = ORIENTED_EDGE('',*,*,#1149,.T.);
 #1149 = EDGE_CURVE('',#1141,#486,#1150,.T.);
 #1150 = LINE('',#1151,#1152);
@@ -1426,7 +1413,7 @@ DATA;
 #1283 = AXIS2_PLACEMENT_3D('',#1284,#1285,#1286);
 #1284 = CARTESIAN_POINT('',(0.85,0.7,0.65));
 #1285 = DIRECTION('',(2.22044604925E-16,-1.,0.));
-#1286 = DIRECTION('',(1.,2.22044604925E-16,8.881784197001E-16));
+#1286 = DIRECTION('',(1.,2.22044604925E-16,1.33226762955E-15));
 #1287 = ORIENTED_EDGE('',*,*,#1288,.T.);
 #1288 = EDGE_CURVE('',#1280,#578,#1289,.T.);
 #1289 = LINE('',#1290,#1291);
@@ -1519,7 +1506,7 @@ DATA;
 #1375 = AXIS2_PLACEMENT_3D('',#1376,#1377,#1378);
 #1376 = CARTESIAN_POINT('',(0.85,-0.7,0.65));
 #1377 = DIRECTION('',(2.22044604925E-16,-1.,0.));
-#1378 = DIRECTION('',(1.,2.22044604925E-16,8.881784197001E-16));
+#1378 = DIRECTION('',(1.,2.22044604925E-16,1.33226762955E-15));
 #1379 = ORIENTED_EDGE('',*,*,#1380,.T.);
 #1380 = EDGE_CURVE('',#1372,#587,#1381,.T.);
 #1381 = LINE('',#1382,#1383);
@@ -1776,7 +1763,7 @@ DATA;
 #1608 = AXIS2_PLACEMENT_3D('',#1609,#1610,#1611);
 #1609 = CARTESIAN_POINT('',(-0.85,-1.2,0.65));
 #1610 = DIRECTION('',(-9.95799250103E-17,1.,0.));
-#1611 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#1611 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #1612 = ORIENTED_EDGE('',*,*,#1613,.T.);
 #1613 = EDGE_CURVE('',#1605,#680,#1614,.T.);
 #1614 = LINE('',#1615,#1616);
@@ -1869,7 +1856,7 @@ DATA;
 #1700 = AXIS2_PLACEMENT_3D('',#1701,#1702,#1703);
 #1701 = CARTESIAN_POINT('',(-0.85,1.2,0.65));
 #1702 = DIRECTION('',(-9.95799250103E-17,1.,0.));
-#1703 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#1703 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #1704 = ORIENTED_EDGE('',*,*,#1705,.T.);
 #1705 = EDGE_CURVE('',#1697,#702,#1706,.T.);
 #1706 = LINE('',#1707,#1708);
@@ -2007,7 +1994,7 @@ DATA;
 #1833 = AXIS2_PLACEMENT_3D('',#1834,#1835,#1836);
 #1834 = CARTESIAN_POINT('',(-0.85,-0.7,0.65));
 #1835 = DIRECTION('',(-9.95799250103E-17,1.,0.));
-#1836 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#1836 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #1837 = ORIENTED_EDGE('',*,*,#1838,.T.);
 #1838 = EDGE_CURVE('',#1830,#788,#1839,.T.);
 #1839 = LINE('',#1840,#1841);
@@ -2100,7 +2087,7 @@ DATA;
 #1925 = AXIS2_PLACEMENT_3D('',#1926,#1927,#1928);
 #1926 = CARTESIAN_POINT('',(-0.85,0.7,0.65));
 #1927 = DIRECTION('',(-9.95799250103E-17,1.,0.));
-#1928 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#1928 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #1929 = ORIENTED_EDGE('',*,*,#1930,.T.);
 #1930 = EDGE_CURVE('',#1922,#828,#1931,.T.);
 #1931 = LINE('',#1932,#1933);
@@ -2245,7 +2232,7 @@ DATA;
 #2065 = AXIS2_PLACEMENT_3D('',#2066,#2067,#2068);
 #2066 = CARTESIAN_POINT('',(-0.85,-0.25,0.65));
 #2067 = DIRECTION('',(-9.95799250103E-17,1.,0.));
-#2068 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#2068 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #2069 = ORIENTED_EDGE('',*,*,#2070,.T.);
 #2070 = EDGE_CURVE('',#2062,#797,#2071,.T.);
 #2071 = LINE('',#2072,#2073);
@@ -2338,7 +2325,7 @@ DATA;
 #2157 = AXIS2_PLACEMENT_3D('',#2158,#2159,#2160);
 #2158 = CARTESIAN_POINT('',(-0.85,0.25,0.65));
 #2159 = DIRECTION('',(-9.95799250103E-17,1.,0.));
-#2160 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#2160 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #2161 = ORIENTED_EDGE('',*,*,#2162,.T.);
 #2162 = EDGE_CURVE('',#2154,#819,#2163,.T.);
 #2163 = LINE('',#2164,#2165);
@@ -2577,7 +2564,7 @@ DATA;
 #2377 = AXIS2_PLACEMENT_3D('',#2378,#2379,#2380);
 #2378 = CARTESIAN_POINT('',(0.85,1.2,0.65));
 #2379 = DIRECTION('',(-2.22044604925E-16,1.,-0.));
-#2380 = DIRECTION('',(1.,2.22044604925E-16,8.881784197001E-16));
+#2380 = DIRECTION('',(1.,2.22044604925E-16,1.33226762955E-15));
 #2381 = ADVANCED_FACE('',(#2382),#2393,.F.);
 #2382 = FACE_BOUND('',#2383,.F.);
 #2383 = EDGE_LOOP('',(#2384,#2390,#2391,#2392));
@@ -2727,7 +2714,7 @@ DATA;
 #2527 = AXIS2_PLACEMENT_3D('',#2528,#2529,#2530);
 #2528 = CARTESIAN_POINT('',(0.85,-0.7,0.65));
 #2529 = DIRECTION('',(-2.22044604925E-16,1.,-0.));
-#2530 = DIRECTION('',(1.,2.22044604925E-16,8.881784197001E-16));
+#2530 = DIRECTION('',(1.,2.22044604925E-16,1.33226762955E-15));
 #2531 = ADVANCED_FACE('',(#2532),#2543,.F.);
 #2532 = FACE_BOUND('',#2533,.F.);
 #2533 = EDGE_LOOP('',(#2534,#2540,#2541,#2542));
@@ -2978,7 +2965,7 @@ DATA;
 #2758 = AXIS2_PLACEMENT_3D('',#2759,#2760,#2761);
 #2759 = CARTESIAN_POINT('',(-0.85,-1.2,0.65));
 #2760 = DIRECTION('',(9.95799250103E-17,-1.,-0.));
-#2761 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#2761 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #2762 = ADVANCED_FACE('',(#2763),#2774,.F.);
 #2763 = FACE_BOUND('',#2764,.F.);
 #2764 = EDGE_LOOP('',(#2765,#2771,#2772,#2773));
@@ -3128,7 +3115,7 @@ DATA;
 #2908 = AXIS2_PLACEMENT_3D('',#2909,#2910,#2911);
 #2909 = CARTESIAN_POINT('',(-0.85,0.7,0.65));
 #2910 = DIRECTION('',(9.95799250103E-17,-1.,-0.));
-#2911 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#2911 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #2912 = ADVANCED_FACE('',(#2913),#2924,.F.);
 #2913 = FACE_BOUND('',#2914,.F.);
 #2914 = EDGE_LOOP('',(#2915,#2921,#2922,#2923));
@@ -3278,7 +3265,7 @@ DATA;
 #3058 = AXIS2_PLACEMENT_3D('',#3059,#3060,#3061);
 #3059 = CARTESIAN_POINT('',(-0.85,-0.25,0.65));
 #3060 = DIRECTION('',(9.95799250103E-17,-1.,-0.));
-#3061 = DIRECTION('',(-1.,-9.95799250103E-17,8.881784197001E-16));
+#3061 = DIRECTION('',(-1.,-9.95799250103E-17,1.33226762955E-15));
 #3062 = ADVANCED_FACE('',(#3063),#3074,.F.);
 #3063 = FACE_BOUND('',#3064,.F.);
 #3064 = EDGE_LOOP('',(#3065,#3071,#3072,#3073));
@@ -3400,9 +3387,9 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#3177,#3178,#3179)) REPRESENTATION_CONTEXT
 #3177 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
 #3178 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
 #3179 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
-#3180 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(5.E-07),#3177,
+#3180 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#3177,
 'distance_accuracy_value','confusion accuracy');
-#3181 = PRODUCT_TYPE('part',$,(#7));
+#3181 = PRODUCT_RELATED_PRODUCT_CATEGORY('part',$,(#7));
 #3182 = MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION('',(
 #3183,#3191,#3198,#3205,#3212,#3219,#3226,#3233,#3240,#3247,#3254,
 #3261,#3268,#3275,#3282,#3289,#3297,#3304,#3311,#3318,#3325,#3332,
@@ -3421,7 +3408,7 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#3177,#3178,#3179)) REPRESENTATION_CONTEXT
 #3187 = SURFACE_STYLE_FILL_AREA(#3188);
 #3188 = FILL_AREA_STYLE('',(#3189));
 #3189 = FILL_AREA_STYLE_COLOUR('',#3190);
-#3190 = COLOUR_RGB('',0.148000001907,0.144999995828,0.144999995828);
+#3190 = COLOUR_RGB('',0.145098045468,0.141176477075,0.141176477075);
 #3191 = STYLED_ITEM('color',(#3192),#55);
 #3192 = PRESENTATION_STYLE_ASSIGNMENT((#3193));
 #3193 = SURFACE_STYLE_USAGE(.BOTH.,#3194);
@@ -3527,7 +3514,7 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#3177,#3178,#3179)) REPRESENTATION_CONTEXT
 #3293 = SURFACE_STYLE_FILL_AREA(#3294);
 #3294 = FILL_AREA_STYLE('',(#3295));
 #3295 = FILL_AREA_STYLE_COLOUR('',#3296);
-#3296 = COLOUR_RGB('',0.824000000954,0.819999992847,0.78100001812);
+#3296 = COLOUR_RGB('',0.823529422283,0.819607853889,0.780392169952);
 #3297 = STYLED_ITEM('color',(#3298),#542);
 #3298 = PRESENTATION_STYLE_ASSIGNMENT((#3299));
 #3299 = SURFACE_STYLE_USAGE(.BOTH.,#3300);

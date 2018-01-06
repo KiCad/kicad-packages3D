@@ -33,7 +33,7 @@ The 3D models in this library are aligned with the footprints available in the K
 
 ### Model Scaling
 * The STEP file format includes model scaling information, and so the 3D model scaling parameter must always be set to 1:1 in mm
-* The WRL file format does not specify absolute dimensions. KiCad normalizes model parameters to units of *Inches*, and the internal units of the WRL files should be scaled accordingly
+* The WRL file format does not specify absolute dimensions. KiCad normalizes WRL model dimension to units of *0.1 Inches*, and the internal units of the WRL files should be scaled accordingly
 
 ## Contributing
 Refer to the Wiki page on [Contributing](https://github.com/KiCad/packages3D/wiki/Contributing)

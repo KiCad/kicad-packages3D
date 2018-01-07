@@ -24,3 +24,8 @@ Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.f
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### Kodenshi_SG105*, Everlight_ITR8307*, OnSemi_CASE100CY
+STEP and WRL models designed by Jan Krieger
+Author:	Jan Krieger
+Tool:	- FreeCAD 0.16 Build 6712 64 bit Microsoft windwos platform https://www.freecadweb.org/

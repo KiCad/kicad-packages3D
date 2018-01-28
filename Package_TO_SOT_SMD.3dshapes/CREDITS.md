@@ -85,3 +85,10 @@ ATPAK-2
 Infineon_PG-HSOF-8-1
 SOT-669_LFPAK
 SOT-89-3
+
+#### TO-277B
+Author strombom
+Modeled in Solidworks 2017 sp1
+Exported to wrl in FreeCAD 0.16
+
+TO-277B

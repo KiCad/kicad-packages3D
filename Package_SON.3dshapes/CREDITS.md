@@ -10,7 +10,7 @@ Please fill all 3D models credits and info source data accordingly.
 
 <hr>
 
-### Package_SON.3dshapes:  
+### Housings_SON.3dshapes:  
 
 Parameters for SON devices added by hackscribble to the existing CadQuery QFN script from easyw
 https://github.com/easyw/kicad-3d-models-in-freecad/pull/69
@@ -33,5 +33,3 @@ X2SON-8_1.4x1mm_Pitch0.35mm
 WSON-14_1EP_4.0x4.0mm_Pitch0.5mm
 
 
-
-WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm author strombom, SolidWorks 2017 sp1

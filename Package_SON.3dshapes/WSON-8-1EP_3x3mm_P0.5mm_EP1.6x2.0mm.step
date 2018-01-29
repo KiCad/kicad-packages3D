@@ -1,25 +1,50 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
+/* WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm.step 3D STEP model for use in ECAD systems
+ * Copyright (C) 2018, kicad StepUp
+ * 
+ * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
+ * with the following exception:
+ * To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', 
+ * then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided 
+ * as part of the 'Licensed Material'.
+ * You are free to use the library data in your own projects without the obligation to share your project files under this or any other license agreement.
+ * However, if you wish to redistribute these libraries, or parts thereof (including in modified form) as a collection then the exception above does not apply. 
+ * Please refer to https://github.com/KiCad/kicad-packages3D/blob/master/LICENSE.md for further clarification of the exception.
+ * Disclaimer of Warranties and Limitation of Liability.
+ * These libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
+ * *USE 3D CAD DATA AT YOUR OWN RISK*
+ * *DO NOT RELY UPON ANY INFORMATION FOUND HERE WITHOUT INDEPENDENT VERIFICATION.*
+ * 
+ */
+
+FILE_DESCRIPTION(
+/* description */ ('model of WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm'),
+/* implementation_level */ '2;1');
+
 FILE_NAME(
-'C:\\development\\kicad\\kicad-3d-models-in-freecad\\cadquery\\
-FCAD_script_generator\\_3Dmodels/QFN_packages\\../Housings_SON.3dshapes\
-\WSON_8_1EP_3x3mm_P05mm_EP16x20mm.step','2018-01-29T12:07:34',(
-    'kicad StepUp'),('ksu MCAD'),'Open CASCADE STEP processor 7.1',
-  'FreeCAD','Unknown');
+/* name */ 'WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm.step',
+/* time_stamp */ '2018-01-29T12:22:44',
+/* author */ ('kicad StepUp','ksu'),
+/* organization */ ('FreeCAD'),
+/* preprocessor_version */ 'OCC',
+/* originating_system */ 'kicad StepUp',
+/* authorisation */ '');
+
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
+
 DATA;
 #1 = APPLICATION_PROTOCOL_DEFINITION('international standard',
-  'automotive_design',2000,#2);
+'automotive_design',2000,#2);
 #2 = APPLICATION_CONTEXT(
-  'core data for automotive mechanical design processes');
+'core data for automotive mechanical design processes');
 #3 = SHAPE_DEFINITION_REPRESENTATION(#4,#10);
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
 #7 = PRODUCT('WSON_8_1EP_3x3mm_P05mm_EP16x20mm',
-  'WSON_8_1EP_3x3mm_P05mm_EP16x20mm','',(#8));
+'WSON_8_1EP_3x3mm_P05mm_EP16x20mm','',(#8));
 #8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#1969);
@@ -29,11 +54,11 @@ DATA;
 #14 = DIRECTION('',(1.,0.E+000,-0.E+000));
 #15 = MANIFOLD_SOLID_BREP('',#16);
 #16 = CLOSED_SHELL('',(#17,#65,#96,#120,#144,#168,#185,#488,#611,#635,
-    #675,#791,#815,#855,#888,#912,#945,#985,#1009,#1049,#1082,#1106,
-    #1139,#1179,#1203,#1243,#1276,#1300,#1333,#1373,#1397,#1437,#1470,
-    #1494,#1527,#1544,#1567,#1584,#1601,#1618,#1635,#1652,#1664,#1681,
-    #1698,#1715,#1732,#1749,#1761,#1778,#1790,#1807,#1819,#1836,#1848,
-    #1865,#1877,#1894,#1906,#1923,#1935,#1960));
+#675,#791,#815,#855,#888,#912,#945,#985,#1009,#1049,#1082,#1106,
+#1139,#1179,#1203,#1243,#1276,#1300,#1333,#1373,#1397,#1437,#1470,
+#1494,#1527,#1544,#1567,#1584,#1601,#1618,#1635,#1652,#1664,#1681,
+#1698,#1715,#1732,#1749,#1761,#1778,#1790,#1807,#1819,#1836,#1848,
+#1865,#1877,#1894,#1906,#1923,#1935,#1960));
 #17 = ADVANCED_FACE('',(#18),#60,.F.);
 #18 = FACE_BOUND('',#19,.F.);
 #19 = EDGE_LOOP('',(#20,#30,#38,#46,#54));
@@ -80,7 +105,7 @@ DATA;
 #60 = PLANE('',#61);
 #61 = AXIS2_PLACEMENT_3D('',#62,#63,#64);
 #62 = CARTESIAN_POINT('',(1.84448113093E-002,-2.259723211898E-002,
-    0.E+000));
+0.E+000));
 #63 = DIRECTION('',(0.E+000,0.E+000,1.));
 #64 = DIRECTION('',(-2.22044604925E-016,-1.,0.E+000));
 #65 = ADVANCED_FACE('',(#66),#91,.F.);
@@ -206,8 +231,8 @@ DATA;
 #185 = ADVANCED_FACE('',(#186,#476),#483,.F.);
 #186 = FACE_BOUND('',#187,.F.);
 #187 = EDGE_LOOP('',(#188,#198,#206,#214,#222,#230,#238,#246,#254,#262,
-    #270,#278,#286,#294,#302,#310,#318,#326,#334,#342,#350,#358,#366,
-    #374,#382,#390,#398,#406,#414,#422,#430,#438,#446,#454,#462,#470));
+#270,#278,#286,#294,#302,#310,#318,#326,#334,#342,#350,#358,#366,
+#374,#382,#390,#398,#406,#414,#422,#430,#438,#446,#454,#462,#470));
 #188 = ORIENTED_EDGE('',*,*,#189,.F.);
 #189 = EDGE_CURVE('',#190,#192,#194,.T.);
 #190 = VERTEX_POINT('',#191);
@@ -511,7 +536,7 @@ DATA;
 #488 = ADVANCED_FACE('',(#489),#606,.T.);
 #489 = FACE_BOUND('',#490,.T.);
 #490 = EDGE_LOOP('',(#491,#492,#500,#508,#514,#515,#523,#531,#537,#538,
-    #546,#554,#560,#561,#569,#577,#583,#584,#592,#600));
+#546,#554,#560,#561,#569,#577,#583,#584,#592,#600));
 #491 = ORIENTED_EDGE('',*,*,#189,.F.);
 #492 = ORIENTED_EDGE('',*,*,#493,.T.);
 #493 = EDGE_CURVE('',#190,#494,#496,.T.);
@@ -699,7 +724,7 @@ DATA;
 #675 = ADVANCED_FACE('',(#676),#786,.F.);
 #676 = FACE_BOUND('',#677,.F.);
 #677 = EDGE_LOOP('',(#678,#679,#680,#688,#694,#695,#703,#711,#717,#718,
-    #726,#734,#740,#741,#749,#757,#763,#764,#772,#780));
+#726,#734,#740,#741,#749,#757,#763,#764,#772,#780));
 #678 = ORIENTED_EDGE('',*,*,#207,.F.);
 #679 = ORIENTED_EDGE('',*,*,#615,.T.);
 #680 = ORIENTED_EDGE('',*,*,#681,.T.);
@@ -1991,23 +2016,23 @@ DATA;
 #1966 = CARTESIAN_POINT('',(-1.15,1.15,0.81));
 #1967 = DIRECTION('',(0.E+000,0.E+000,1.));
 #1968 = DIRECTION('',(-2.22044604925E-016,-1.,0.E+000));
-#1969 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
-GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#1973)) 
+#1969 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3)
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#1973))
 GLOBAL_UNIT_ASSIGNED_CONTEXT((#1970,#1971,#1972)) REPRESENTATION_CONTEXT
 ('Context #1','3D Context with UNIT and UNCERTAINTY') );
 #1970 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
 #1971 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
 #1972 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
 #1973 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(2.E-007),#1970,
-  'distance_accuracy_value','confusion accuracy');
+'distance_accuracy_value','confusion accuracy');
 #1974 = PRODUCT_RELATED_PRODUCT_CATEGORY('part',$,(#7));
 #1975 = MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION('',(
-    #1976,#1984,#1991,#1998,#2005,#2012,#2019,#2027,#2034,#2041,#2048,
-    #2055,#2062,#2069,#2076,#2083,#2090,#2097,#2104,#2111,#2118,#2125,
-    #2132,#2139,#2146,#2153,#2160,#2167,#2174,#2181,#2188,#2195,#2202,
-    #2209,#2216,#2223,#2230,#2237,#2244,#2251,#2258,#2265,#2272,#2279,
-    #2286,#2293,#2300,#2307,#2314,#2321,#2328,#2335,#2342,#2349,#2356,
-    #2363,#2370,#2377,#2384,#2391,#2398,#2405),#1969);
+#1976,#1984,#1991,#1998,#2005,#2012,#2019,#2027,#2034,#2041,#2048,
+#2055,#2062,#2069,#2076,#2083,#2090,#2097,#2104,#2111,#2118,#2125,
+#2132,#2139,#2146,#2153,#2160,#2167,#2174,#2181,#2188,#2195,#2202,
+#2209,#2216,#2223,#2230,#2237,#2244,#2251,#2258,#2265,#2272,#2279,
+#2286,#2293,#2300,#2307,#2314,#2321,#2328,#2335,#2342,#2349,#2356,
+#2363,#2370,#2377,#2384,#2391,#2398,#2406),#1969);
 #1976 = STYLED_ITEM('color',(#1977),#17);
 #1977 = PRESENTATION_STYLE_ASSIGNMENT((#1978));
 #1978 = SURFACE_STYLE_USAGE(.BOTH.,#1979);
@@ -2436,13 +2461,14 @@ GLOBAL_UNIT_ASSIGNED_CONTEXT((#1970,#1971,#1972)) REPRESENTATION_CONTEXT
 #2401 = SURFACE_SIDE_STYLE('',(#2402));
 #2402 = SURFACE_STYLE_FILL_AREA(#2403);
 #2403 = FILL_AREA_STYLE('',(#2404));
-#2404 = FILL_AREA_STYLE_COLOUR('',#1983);
-#2405 = STYLED_ITEM('color',(#2406),#1960);
-#2406 = PRESENTATION_STYLE_ASSIGNMENT((#2407));
-#2407 = SURFACE_STYLE_USAGE(.BOTH.,#2408);
-#2408 = SURFACE_SIDE_STYLE('',(#2409));
-#2409 = SURFACE_STYLE_FILL_AREA(#2410);
-#2410 = FILL_AREA_STYLE('',(#2411));
-#2411 = FILL_AREA_STYLE_COLOUR('',#1983);
+#2404 = FILL_AREA_STYLE_COLOUR('',#2405);
+#2405 = COLOUR_RGB('',0.690999984741,0.663999974728,0.597999989986);
+#2406 = STYLED_ITEM('color',(#2407),#1960);
+#2407 = PRESENTATION_STYLE_ASSIGNMENT((#2408));
+#2408 = SURFACE_STYLE_USAGE(.BOTH.,#2409);
+#2409 = SURFACE_SIDE_STYLE('',(#2410));
+#2410 = SURFACE_STYLE_FILL_AREA(#2411);
+#2411 = FILL_AREA_STYLE('',(#2412));
+#2412 = FILL_AREA_STYLE_COLOUR('',#2405);
 ENDSEC;
 END-ISO-10303-21;

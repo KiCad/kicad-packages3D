@@ -32,4 +32,13 @@ WSON8_4x4mm_Pitch0.8mm
 X2SON-8_1.4x1mm_Pitch0.35mm
 WSON-14_1EP_4.0x4.0mm_Pitch0.5mm
 
+### Package_SON.3dshapes:
+
+Parameters in script:
+https://github.com/easyw/kicad-3d-models-in-freecad/pull/147
+FreeCAD 0.17 R13171
+StepUp v5015
+CadQuery 1.0.0.1
+
+WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm
 

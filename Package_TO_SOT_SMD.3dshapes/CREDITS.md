@@ -86,10 +86,12 @@ Infineon_PG-HSOF-8-1
 SOT-669_LFPAK
 SOT-89-3
 
-#### TO-277A, WSON-8-1EP_3x3mm
+#### TO-277A, TO-277B, WSON-8-1EP_3x3mm
 Author strombom
 Modeled in Solidworks 2017 sp1
 Exported to wrl in FreeCAD 0.16
 
 TO-277A
+TO-277B
 WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm
+

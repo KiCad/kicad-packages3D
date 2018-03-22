@@ -7,8 +7,11 @@ cmake_minimum_required( VERSION 2.6.1 FATAL_ERROR )
 # Locations for install targets.
 #================================================
 if( APPLE )
-    # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
-    set( CMAKE_INSTALL_PREFIX "/Library/Application Support/kicad/" CACHE PATH "" )
+    # The project command has already set CMAKE_INSTALL_PREFIX, so FORCE must be used.
+    # This check makes sure CMAKE_INSTALL_PREFIX can still be overridden from the command line.
+    if( CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT )
+        set( CMAKE_INSTALL_PREFIX "/Library/Application Support/kicad/" CACHE PATH "" FORCE )
+    endif()
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
     set( KICAD_PACKAGES_3D modules/packages3d )
 else()
@@ -40,16 +43,17 @@ add_custom_target( uninstall
 #================================================
 # Installed files.
 #================================================
+file (GLOB SHAPE_DIRS "*.3dshapes")
 
 # Install the contents of all of the .pretty folders in to the modules path.
-install( DIRECTORY ./
+install( DIRECTORY ${SHAPE_DIRS}
     DESTINATION ${KICAD_PACKAGES_3D}
     COMPONENT resources
     FILES_MATCHING PATTERN "*.wrl"
     PATTERN ".git" EXCLUDE
 )
 
-install( DIRECTORY ./
+install( DIRECTORY ${SHAPE_DIRS}
     DESTINATION ${KICAD_PACKAGES_3D}
     COMPONENT resources
     FILES_MATCHING PATTERN "*.step"

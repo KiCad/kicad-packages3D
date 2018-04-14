@@ -42,3 +42,12 @@ L_Wuerth_MAPI-3015
 L_Wuerth_MAPI-3020
 L_Wuerth_MAPI-4020
 L_Wuerth_MAPI-4030
+
+
+### Inductors_SMD.3dshapes: SRR1260
+
+author: strombom
+Modeled in FreeCAD 0.17
+step and wrl export in StepUp
+
+SRR1260

@@ -41,15 +41,17 @@ add_custom_target( uninstall
 # Installed files.
 #================================================
 
-# Install the contents of all of the .pretty folders in to the modules path.
-install( DIRECTORY ./
+# Install all of the .3dshapes folders and their contents in to the modules path.
+file ( GLOB SHAPE_DIRS "*.3dshapes" )
+
+install( DIRECTORY ${SHAPE_DIRS}
     DESTINATION ${KICAD_PACKAGES_3D}
     COMPONENT resources
     FILES_MATCHING PATTERN "*.wrl"
     PATTERN ".git" EXCLUDE
 )
 
-install( DIRECTORY ./
+install( DIRECTORY ${SHAPE_DIRS}
     DESTINATION ${KICAD_PACKAGES_3D}
     COMPONENT resources
     FILES_MATCHING PATTERN "*.step"

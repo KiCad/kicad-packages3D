@@ -108,3 +108,4 @@ UQFN-28-1EP_4x4mm_Pitch0.4mm
 UQFN-40-1EP_5x5mm_Pitch0.4mm 
 UQFN-48-1EP_6x6mm_Pitch0.4mm 
 VDFN-8-1EP_2x2mm_Pitch0.5mm 
+WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm

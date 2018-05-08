@@ -19,3 +19,9 @@ Manually-generated FreeCAD model by hackscribble
 - [MPL115A1](https://github.com/KiCad/packages3D-source/pull/5)
 - FreeCAD 0.17 R10887
 - StepUp v5015
+
+#### DHT11
+
+Manually-generated FreeCAD model by misca1234
+- FreeCAD 0.17 R11223
+- StepUp v7180

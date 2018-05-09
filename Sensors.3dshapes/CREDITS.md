@@ -20,7 +20,7 @@ Manually-generated FreeCAD model by hackscribble
 - FreeCAD 0.17 R10887
 - StepUp v5015
 
-#### DHT11
+#### Aosong_DHT11_5.5x12.0_P2.54mm
 
 Manually-generated FreeCAD model by misca1234
 - FreeCAD 0.17 R11223

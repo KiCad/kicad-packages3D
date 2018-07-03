@@ -79,3 +79,12 @@ SW_DIP_x12_W7.62mm_Piano
 SW_DIP_x12_W7.62mm_Slide  
 SW_DIP_x12_W7.62mm_Slide_LowProfile  
 SW_DIP_x12_W8.61mm_Slide_LowProfile  
+
+
+## Manual models
+
+### EG1224
+
+author: @Rasaj
+software: Freecad + stepup
+source-file: packages3d-source repo

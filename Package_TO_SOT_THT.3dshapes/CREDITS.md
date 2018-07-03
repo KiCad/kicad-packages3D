@@ -34,3 +34,41 @@ author: jkriege2
 author: ???
 
 
+### TO-xyz
+
+author: jkriege2
+Freecad + stepup
+list of modles:
+- TO-126-2_Vertical
+- TO-126-3_Vertical
+- TO-218-2_Vertical
+- TO-218-3_Vertical
+- TO-220-4_Vertical
+- TO-247-2_Vertical
+- TO-247-3_Vertical
+- TO-247-4_Vertical
+- TO-247-5_Vertical
+- TO-251-2-1EP_Horizontal_TabDown
+- TO-251-2_Vertical
+- TO-251-3-1EP_Horizontal_TabDown
+- TO-251-3_Vertical
+- TO-262-3-1EP_Horizontal_TabDown
+- TO-262-3_Vertical
+- TO-262-5_Vertical
+- TO-264-2_Vertical
+- TO-264-3_Vertical
+- TO-264-5_Vertical
+- TO-3P-3_Vertical
+- TO-3PB-3_Vertical 
+- TO-220-11_Vertical_StaggeredType1_Py5.08mm
+- TO-220-11_Vertical_StaggeredType2_Py5.08mm
+- TO-220-2_Horizontal_TabDown
+- TO-220-2_Horizontal_TabUp
+- TO-220-2_Vertical
+- TO-220-3_Horizontal_TabDown
+- TO-220-3_Horizontal_TabUp
+- TO-220-3_Vertical
+- TO-220-5_Vertical_StaggeredType1_Py3.7mm
+- TO-220-5_Vertical_StaggeredType2_Py3.7mm
+- TO-220F-2_Vertical
+- TO-220F-3_Vertical 

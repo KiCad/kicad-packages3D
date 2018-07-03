@@ -19,3 +19,11 @@ main author: Rene Pöschl
 release version of sw used to create models:  
 - FreeCAD 0.17
 - KiCad Stepup
+
+#### LEM_LV25-P.step and LEM_LV25-P.wrl
+
+main author: Stefan Olsson
+
+release version of sw used to create models:  
+- FreeCAD 0.17
+- KiCad Stepup

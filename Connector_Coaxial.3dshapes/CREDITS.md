@@ -18,3 +18,5 @@ release version of sw used to create models:
 
 U.FL_Hirose_U.FL-R-SMT-1_Vertical 	- made by Shack
 MMCX_Molex_73415-1471_Vertical		- made by Shack
+SMA_Amphenol_132291-12_Vertical		- made by Shack
+SMA_Amphenol_132291_Vertical 		- made by Shack

@@ -56,10 +56,10 @@ In addition to the 3D model data provided in this library, there are other sourc
 Many manufacturers provide accurate 3D models for specific components.
 
 Online repositories:
-    * [FreeCAD Electric Library](https://github.com/FreeCAD/FreeCAD-library/tree/master/Electrical%20Parts)
-    * [FreeCAD Electronic Library](https://github.com/FreeCAD/FreeCAD-library/tree/master/Electrical%20Parts/electronic-components)
-    * [GrabCAD](https://grabcad.com/)
-    * [3D ContentCentral](http://www.3dcontentcentral.com/)
-    * [traceparts](http://www.traceparts.com/)
+  * [FreeCAD Electric Library](https://github.com/FreeCAD/FreeCAD-library/tree/master/Electrical%20Parts)
+  * [FreeCAD Electronic Library](https://github.com/FreeCAD/FreeCAD-library/tree/master/Electrical%20Parts/electronic-components)
+  * [GrabCAD](https://grabcad.com/)
+  * [3D ContentCentral](http://www.3dcontentcentral.com/)
+  * [traceparts](http://www.traceparts.com/)
 
 Ensure that the license of any 3D data used is compatible with the KiCad project.

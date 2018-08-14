@@ -11,7 +11,7 @@ pcb_r = 3
 
 pins = 16
 pin_pitch = 0.1 * in2mm
-pin_diameter = 0.9
+pin_diameter = 1.0
 #
 pin_1_x = (pcb_x - (0.9 * in2mm)) / 2
 pin_1_y = 9 + (pins/2 - 1) * pin_pitch
@@ -90,7 +90,7 @@ pcb = pcb.cut(pcb_pin_holes)
 
 show_object(pcb, options={"rgba":(4,93,142, 0)})
 show_object(esp, options={"rgba":(100, 100, 100, 0.0)})
-show_object(usb_plug, options={"rgba":(255, 50, 50, 0)})
+show_object(usb_plug, options={"rgba":(200, 200, 200, 0)})
 #show_object(rst_notch, options={"rgba":(255, 50, 50, 0.9)})
 #show_object(usb_notch, options={"rgba":(50, 127, 127, 0.9)})
 #show_object(pcb_pin_holes, options={"rgba":(255, 255, 100, 0.5)})

@@ -24,3 +24,8 @@ Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.f
 STEP and WRL models designed manually by Sandhan Sarma
 AUthor: Sandhan Sarma <sandhansmailbox@gmail.com>
 Tool:   - FreeCAD 0.17 Build 13340 64-bit Ubuntu 16.04.4 LTS platform https://www.freecadweb.org/
+
+#### ESP-WROOM-32, ESP-WROOM-032D, ESP-WROOM-032U
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/

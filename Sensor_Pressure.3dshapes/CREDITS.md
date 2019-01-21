@@ -11,7 +11,7 @@ Please fill all 3D models credits and info source data accordingly.
 
 <hr>  
 
-### Sensors.3dshapes
+### Sensor_Pressure.3dshapes
 
 #### MPL115A1
 

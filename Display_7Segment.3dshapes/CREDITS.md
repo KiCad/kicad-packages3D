@@ -54,3 +54,15 @@ Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.f
 STEP and WRL models designed by Stefan Olsson
 Author:	Stefan Olsson
 Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+
+#### HDSP-7401, HDSP-7507, HDSP-7801, HDSP-7807, HDSP-A151, HDSP-A401
+Note: HDSP-7401, HDSP-7801, HDSP-A151, HDSP-A401
+Is made with the same model, HDSP-A401.FCStd, by changing the colour before the export
+
+Note: HDSP-7507, HDSP-7807, HDSP-A401.FCStd, by changing the colour before the export
+Is made with the same model, HDSP-7507_7807.FCStd, by changing the colour before the export
+
+STEP and WRL models designed by Stefan Olsson
+Author:	Stefan Olsson
+Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.freecadweb.org/
+

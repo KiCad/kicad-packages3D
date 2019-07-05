@@ -10,10 +10,5 @@ Please fill all 3D models credits and info source data accordingly.
 
 <hr>  
 
-### Buttons_Switches_THT:  
-main author: Joan Obijuan, Rene Poeschl and Frank Shackmeister (others in script files)
-
-release version of sw used to create models:  
-- FreeCAD 0.15 or FreeCAD 0.17 release >= 10647
-
-USB_Micro-B_Molex_47346-0001 - manually made by Obijuan, adjusted for Kicad by Shack
+* USB_Micro-B_Molex_47346-0001 - manually made by Obijuan, adjusted for Kicad by Shack
+* USB_C_Receptacle_Palconn_UTC16-G - manually made by Duckle29

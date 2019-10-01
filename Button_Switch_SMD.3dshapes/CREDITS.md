@@ -19,3 +19,9 @@ Tool:	- FreeCAD 0.17 Build 11223 64 bit Microsoft windwos platform https://www.f
 
 SW_SPST_B3U-1000P-B - By Fandres
 SW_SPST_B3U-1000P 	- By Fandres
+
+
+#### CK KMR2
+STEP and WRL models designed by David Nottebohm-Knochenhauer
+Author:	David Nottebohm-Knochenhauer
+Tool: OpenSCAD 2019.08.04; FreeCAD 0.18

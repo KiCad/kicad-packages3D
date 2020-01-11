@@ -1,7 +1,7 @@
 #VRML V2.0 utf8
 #kicad StepUp wrl exported
 
-# Copyright (C) 2018, kicad StepUp
+# Copyright (C) 2020, kicad StepUp
 # 
 # This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
 # with the following exception:
@@ -81,14 +81,8 @@ coord Coordinate { point [2.819 0.510 3.864,0.181 0.510 3.864,0.181 0.490 3.864,
 appearance Appearance{material USE PIN-01 }
 }
 Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1,3,4,5,-1,0,3,5,-1,4,6,7,-1,5,4,7,-1,2,1,7,-1,6,2,7,-1]
-coord Coordinate { point [3.327 0.490 4.260,3.327 0.490 1.484,2.819 0.490 1.880,2.819 0.490 3.864,0.181 0.490 3.864,-0.327 0.490 4.260,0.181 0.490 1.880,-0.327 0.490 1.484]
-}}
-appearance Appearance{material USE IC-BODY-EPOXY-04 }
-}
-Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
-coord Coordinate { point [-0.390 0.427 4.323,3.390 0.427 4.323,3.327 0.490 4.260,-0.327 0.490 4.260]
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1,0,4,5,-1,1,0,5,-1,4,6,7,-1,5,4,7,-1,3,2,7,-1,6,3,7,-1]
+coord Coordinate { point [2.819 0.490 3.864,3.327 0.490 4.260,3.327 0.490 1.484,2.819 0.490 1.880,0.181 0.490 3.864,-0.327 0.490 4.260,0.181 0.490 1.880,-0.327 0.490 1.484]
 }}
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
@@ -100,19 +94,19 @@ appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
 Shape { geometry IndexedFaceSet 
 { creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
-coord Coordinate { point [-0.327 0.490 1.484,-0.390 0.427 1.421,-0.390 0.427 4.323,-0.327 0.490 4.260]
-}}
-appearance Appearance{material USE IC-BODY-EPOXY-04 }
-}
-Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
 coord Coordinate { point [3.327 0.490 1.484,3.390 0.427 1.421,-0.390 0.427 1.421,-0.327 0.490 1.484]
 }}
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
 Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
-coord Coordinate { point [3.390 0.301 4.323,-0.390 0.427 4.323,-0.390 0.301 4.323,3.390 0.427 4.323]
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.390 0.427 4.323,3.390 0.427 4.323,3.327 0.490 4.260,-0.327 0.490 4.260]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,0,2,-1]
+coord Coordinate { point [-0.327 0.490 1.484,-0.390 0.427 1.421,-0.390 0.427 4.323,-0.327 0.490 4.260]
 }}
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
@@ -123,14 +117,20 @@ coord Coordinate { point [3.390 0.301 4.323,3.390 0.301 1.421,3.390 0.427 1.421,
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
 Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
-coord Coordinate { point [-0.390 0.301 4.323,-0.390 0.427 4.323,-0.390 0.427 1.421,-0.390 0.301 1.421]
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
+coord Coordinate { point [-0.390 0.301 1.421,-0.390 0.427 1.421,3.390 0.301 1.421,3.390 0.427 1.421]
 }}
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
 Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,2,1,3,-1]
-coord Coordinate { point [-0.390 0.301 1.421,-0.390 0.427 1.421,3.390 0.301 1.421,3.390 0.427 1.421]
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,3,1,0,-1]
+coord Coordinate { point [3.390 0.301 4.323,-0.390 0.427 4.323,-0.390 0.301 4.323,3.390 0.427 4.323]
+}}
+appearance Appearance{material USE IC-BODY-EPOXY-04 }
+}
+Shape { geometry IndexedFaceSet 
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,0,2,3,-1]
+coord Coordinate { point [-0.390 0.301 4.323,-0.390 0.427 4.323,-0.390 0.427 1.421,-0.390 0.301 1.421]
 }}
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
@@ -321,14 +321,14 @@ coord Coordinate { point [2.847 -1.234 0.705,2.847 -1.217 0.731,2.847 -1.106 0.6
 appearance Appearance{material USE PIN-01 }
 }
 Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,4,0,5,-1,0,2,5,-1,6,4,7,-1,4,5,7,-1,8,6,9,-1,6,7,9,-1,10,8,11,-1,8,9,11,-1,12,10,13,-1,14,12,13,-1,10,11,13,-1,14,13,15,-1]
-coord Coordinate { point [-0.433 -0.296 4.417,-0.400 -0.301 4.384,3.433 -0.296 4.417,3.400 -0.301 4.384,-0.459 -0.281 4.444,3.459 -0.281 4.444,-0.477 -0.264 4.462,3.477 -0.264 4.462,-0.489 -0.246 4.474,3.489 -0.246 4.474,-0.496 -0.227 4.481,3.496 -0.227 4.481,-0.499 -0.214 4.483,3.499 -0.214 4.483,-0.500 -0.201 4.484,3.500 -0.201 4.484]
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,4,0,5,-1,6,4,5,-1,0,2,5,-1,7,6,8,-1,6,5,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,13,11,14,-1,11,12,14,-1,13,14,15,-1]
+coord Coordinate { point [-0.433 -0.296 4.417,-0.400 -0.301 4.384,3.433 -0.296 4.417,3.400 -0.301 4.384,-0.459 -0.281 4.444,3.459 -0.281 4.444,-0.477 -0.264 4.462,-0.489 -0.246 4.474,3.477 -0.264 4.462,-0.496 -0.227 4.481,3.489 -0.246 4.474,-0.499 -0.214 4.483,3.496 -0.227 4.481,-0.500 -0.201 4.484,3.499 -0.214 4.483,3.500 -0.201 4.484]
 }}
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }
 Shape { geometry IndexedFaceSet 
-{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,4,0,5,-1,6,4,5,-1,0,2,5,-1,7,6,8,-1,6,5,8,-1,9,7,10,-1,7,8,10,-1,11,9,12,-1,9,10,12,-1,13,11,14,-1,11,12,14,-1,13,14,15,-1]
-coord Coordinate { point [-0.433 -0.296 1.327,-0.400 -0.301 1.360,-0.433 -0.296 4.417,-0.400 -0.301 4.384,-0.459 -0.281 1.300,-0.459 -0.281 4.444,-0.477 -0.264 1.283,-0.489 -0.246 1.271,-0.477 -0.264 4.462,-0.496 -0.227 1.263,-0.489 -0.246 4.474,-0.499 -0.214 1.261,-0.496 -0.227 4.481,-0.500 -0.201 1.260,-0.499 -0.214 4.483,-0.500 -0.201 4.484]
+{ creaseAngle 0.50 coordIndex [0,1,2,-1,1,3,2,-1,4,0,5,-1,0,2,5,-1,6,4,7,-1,4,5,7,-1,8,6,9,-1,6,7,9,-1,10,8,11,-1,8,9,11,-1,12,10,13,-1,10,11,13,-1,14,12,15,-1,12,13,15,-1]
+coord Coordinate { point [-0.433 -0.296 1.327,-0.400 -0.301 1.360,-0.433 -0.296 4.417,-0.400 -0.301 4.384,-0.459 -0.281 1.300,-0.459 -0.281 4.444,-0.477 -0.264 1.283,-0.477 -0.264 4.462,-0.489 -0.246 1.271,-0.489 -0.246 4.474,-0.496 -0.227 1.263,-0.496 -0.227 4.481,-0.499 -0.214 1.261,-0.499 -0.214 4.483,-0.500 -0.201 1.260,-0.500 -0.201 4.484]
 }}
 appearance Appearance{material USE IC-BODY-EPOXY-04 }
 }

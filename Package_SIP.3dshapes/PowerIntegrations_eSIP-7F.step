@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 /* PowerIntegrations_eSIP-7F.step 3D STEP model for use in ECAD systems
- * Copyright (C) 2018, kicad StepUp
+ * Copyright (C) 2020, kicad StepUp
  * 
  * This work is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), 
  * with the following exception:
@@ -24,7 +24,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'PowerIntegrations_eSIP-7F.step',
-/* time_stamp */ '2018-12-21T19:45:21',
+/* time_stamp */ '2020-01-11T11:12:22',
 /* author */ ('kicad StepUp','ksu'),
 /* organization */ ('FreeCAD'),
 /* preprocessor_version */ 'OCC',
@@ -43,7 +43,7 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7 = PRODUCT('PowerIntegrations_eSIP_7F','PowerIntegrations_eSIP_7F','',
+#7 = PRODUCT('PowerIntegrations_eSIP-7F','PowerIntegrations_eSIP-7F','',
 (#8));
 #8 = PRODUCT_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
@@ -799,7 +799,7 @@ DATA;
 #745 = AXIS2_PLACEMENT_3D('',#746,#747,#748);
 #746 = CARTESIAN_POINT('',(-10.08,-8.635,0.355));
 #747 = DIRECTION('',(0.707106781187,-0.707106781187,0.E+000));
-#748 = DIRECTION('',(0.707106781187,0.707106781187,0.E+000));
+#748 = DIRECTION('',(-0.707106781187,-0.707106781187,0.E+000));
 #749 = ORIENTED_EDGE('',*,*,#750,.T.);
 #750 = EDGE_CURVE('',#742,#751,#753,.T.);
 #751 = VERTEX_POINT('',#752);
@@ -813,8 +813,8 @@ DATA;
 #759 = ELLIPSE('',#760,0.360624458405,0.255);
 #760 = AXIS2_PLACEMENT_3D('',#761,#762,#763);
 #761 = CARTESIAN_POINT('',(-2.4,-8.635,0.355));
-#762 = DIRECTION('',(0.707106781187,0.707106781187,0.E+000));
-#763 = DIRECTION('',(0.707106781187,-0.707106781187,0.E+000));
+#762 = DIRECTION('',(0.707106781187,0.707106781187,-0.E+000));
+#763 = DIRECTION('',(-0.707106781187,0.707106781187,0.E+000));
 #764 = ORIENTED_EDGE('',*,*,#458,.F.);
 #765 = CYLINDRICAL_SURFACE('',#766,0.255);
 #766 = AXIS2_PLACEMENT_3D('',#767,#768,#769);
@@ -831,8 +831,8 @@ DATA;
 #777 = ELLIPSE('',#778,0.360624458405,0.255);
 #778 = AXIS2_PLACEMENT_3D('',#779,#780,#781);
 #779 = CARTESIAN_POINT('',(-10.08,1.015,0.355));
-#780 = DIRECTION('',(-0.707106781187,-0.707106781187,-0.E+000));
-#781 = DIRECTION('',(-0.707106781187,0.707106781187,0.E+000));
+#780 = DIRECTION('',(-0.707106781187,-0.707106781187,0.E+000));
+#781 = DIRECTION('',(0.707106781187,-0.707106781187,0.E+000));
 #782 = ORIENTED_EDGE('',*,*,#783,.T.);
 #783 = EDGE_CURVE('',#775,#742,#784,.T.);
 #784 = LINE('',#785,#786);
@@ -864,7 +864,7 @@ DATA;
 #810 = AXIS2_PLACEMENT_3D('',#811,#812,#813);
 #811 = CARTESIAN_POINT('',(-2.4,1.015,0.355));
 #812 = DIRECTION('',(-0.707106781187,0.707106781187,0.E+000));
-#813 = DIRECTION('',(-0.707106781187,-0.707106781187,0.E+000));
+#813 = DIRECTION('',(0.707106781187,0.707106781187,0.E+000));
 #814 = ORIENTED_EDGE('',*,*,#506,.F.);
 #815 = CYLINDRICAL_SURFACE('',#816,0.255);
 #816 = AXIS2_PLACEMENT_3D('',#817,#818,#819);
@@ -1776,10 +1776,10 @@ DATA;
 #1713 = ADVANCED_FACE('',(#1714,#1720),#1731,.F.);
 #1714 = FACE_BOUND('',#1715,.F.);
 #1715 = EDGE_LOOP('',(#1716,#1717,#1718,#1719));
-#1716 = ORIENTED_EDGE('',*,*,#1701,.T.);
-#1717 = ORIENTED_EDGE('',*,*,#783,.T.);
-#1718 = ORIENTED_EDGE('',*,*,#750,.T.);
-#1719 = ORIENTED_EDGE('',*,*,#800,.T.);
+#1716 = ORIENTED_EDGE('',*,*,#783,.T.);
+#1717 = ORIENTED_EDGE('',*,*,#750,.T.);
+#1718 = ORIENTED_EDGE('',*,*,#800,.T.);
+#1719 = ORIENTED_EDGE('',*,*,#1701,.T.);
 #1720 = FACE_BOUND('',#1721,.F.);
 #1721 = EDGE_LOOP('',(#1722));
 #1722 = ORIENTED_EDGE('',*,*,#1723,.F.);

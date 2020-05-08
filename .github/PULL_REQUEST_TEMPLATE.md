@@ -2,7 +2,7 @@
 
 ------------
 Thanks for creating a pull request to contribute to the KiCad libraries! 
-**Remember you must be the legal owner of the 3D model! Models downloaded from a manufacturers webside can not be accepted.** 
+**Remember you must be the legal owner of the 3D model! Models downloaded from a manufacturers website cannot be accepted.** 
 
 To speed up integration of your PR, please check the following items as you complete them:
 

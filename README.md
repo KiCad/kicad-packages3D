@@ -1,3 +1,9 @@
+## :warning: Deprecation warning
+
+On Oct 1, 2020 this repository, including issues and pull requests, will be archived and transferred to [gitlab.com](https://gitlab.com/kicad/libraries/kicad-packages3D). In order for your pull requests and issues to be imported into GitLab you must set your email address on GitHub to public and use the same address for your GitLab account. Or login to GitLab at least once using the GitHub icon. Otherwise the importer can't correlate the account information and the issues/comments on GitLab will be owned by `kicad-bot` ([importer documentation](https://docs.gitlab.com/ee/user/project/import/github.html#how-it-works)).
+
+---
+
 # KiCad 3D Models
 This repository contains 3D models for rendering and MCAD integration, for use with [KiCAD EDA](http://kicad-pcb.org/) software.
 The model needs a mechanical model source (a manually-modelled or script-generated file); its WRL counterpart file must be obtained as a conversion from the MCAD model

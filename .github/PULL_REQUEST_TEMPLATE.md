@@ -1,5 +1,11 @@
 *Replace this line with your commit message! Please provide a description of your pull request*
 
+---
+
+## :warning: Deprecation warning
+
+On Oct 1, 2020 this repository, including issues and pull requests, will be archived and transferred to [gitlab.com](https://gitlab.com/kicad/libraries/kicad-packages3D/). In order for your pull requests and issues to be imported into GitLab you must set your email address on GitHub to public and use the same address for your GitLab account. Or login to GitLab at least once using the GitHub icon. Otherwise the importer can't correlate the account information and the issues/comments on GitLab will be owned by `kicad-bot` ([importer documentation](https://docs.gitlab.com/ee/user/project/import/github.html#how-it-works)).
+
 ------------
 Thanks for creating a pull request to contribute to the KiCad libraries! 
 **Remember you must be the legal owner of the 3D model! Models downloaded from a manufacturers website cannot be accepted.** 

@@ -10,12 +10,12 @@ if( APPLE )
     # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
     set( CMAKE_INSTALL_PREFIX "/Library/Application Support/kicad/" CACHE PATH "" )
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
-    set( KICAD_PACKAGES_3D modules/packages3d )
+    set( KICAD_PACKAGES_3D 3dmodels )
 else()
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
     set( KICAD_DATA share/kicad
         CACHE PATH "Location of KiCad data files." )
-    set( KICAD_PACKAGES_3D ${KICAD_DATA}/modules/packages3d )
+    set( KICAD_PACKAGES_3D ${KICAD_DATA}/3dmodels )
 endif()
 
 mark_as_advanced( KICAD_DATA KICAD_MODULES )
